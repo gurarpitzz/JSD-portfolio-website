@@ -1,0 +1,112 @@
+{
+  "federation_name": "Boccia Sports Federation of India (BSFI)",
+  "hindi_name": "\u092c\u094b\u091a\u094d\u091a\u093f\u092f\u093e \u0938\u094d\u092a\u094b\u0930\u094d\u091f\u094d\u0938 \u092b\u0947\u0921\u0930\u0947\u0936\u0928 \u0911\u095e \u0907\u0902\u0921\u093f\u092f\u093e",
+  "founding_year": 2016,
+  "founder_and_president": "Jaspreet Singh Dhaliwal",
+  "chairman": "Ashok Bedi",
+  "affiliations_and_recognitions": [
+    "World Boccia (International Governing Body)",
+    "Paralympic Committee of India (PCI)",
+    "Ministry of Youth Affairs & Sports (MYAS), Government of India",
+    "Sports Authority of India (SAI)",
+    "National Anti-Doping Agency (NADA)"
+  ],
+  "origin_story": "During an international visit to Seoul, South Korea in 2014 for a Taekwondo championship, Jaspreet Singh Dhaliwal witnessed the sport of Boccia and the profound transformative impact it held for individuals with the most severe physical impairments (such as quadriplegia, advanced cerebral palsy, muscular dystrophy, and severe spinal cord trauma). Determined to introduce this life-altering precision sport to India, he returned and spent two years laying institutional groundwork, founding the Para Boccia Sports Welfare Society in 2016. What began as a passionate grassroots initiative has evolved into the recognized Boccia Sports Federation of India (BSFI), boasting affiliated state associations across India, regular national championships, and internationally ranked athletes on the World Boccia podium.",
+  "technology_and_equipment_innovations": {
+    "title": "Indigenous BC3 Assistive Boccia Ramp Initiative",
+    "partners": [
+      "Indian Council of Medical Research (ICMR)",
+      "IIT Madras",
+      "BSFI"
+    ],
+    "description": "BC3 athletes have severe physical impairments in all four limbs and lack the manual strength or motor control to throw balls with their hands. They compete using an assistive ramp and a head/mouth pointer operated with a sports assistant. High-end international ramps typically cost thousands of euros, creating an insurmountable barrier for Indian athletes from humble backgrounds. Under Jaspreet Singh Dhaliwal's proactive leadership, BSFI partnered with ICMR and India's premier engineering institute, IIT Madras, to design, test, and manufacture precision-engineered, cost-effective indigenous Boccia ramps. This landmark development made the highest tier of the sport radically accessible to Indian athletes.",
+    "milestones": [
+      "Official demonstration and review at ICMR Headquarters, New Delhi (Sep 2026).",
+      "Field testing and validation during National Coaching Camps in IAMD, Solan (Aug 2026).",
+      "Full compliance with World Boccia equipment regulations and dimensional tolerances."
+    ],
+    "associated_images": [
+      "assets/images/gallery/icmr-iit-madras-bc3-ramp-launch.webp",
+      "assets/images/news/icmr-ramp-demo-1.webp",
+      "assets/images/news/icmr-ramp-demo-2.webp"
+    ]
+  },
+  "international_milestones": [
+    {
+      "year": 2018,
+      "event": "Jakarta 2018 Asian Para Games",
+      "location": "Jakarta, Indonesia",
+      "significance": "India's historic debut in Boccia at the Asian Para Games."
+    },
+    {
+      "year": 2019,
+      "event": "Fazza International Boccia Competition",
+      "location": "Dubai, UAE",
+      "significance": "First major Middle-Eastern international exposure for Indian contingent."
+    },
+    {
+      "year": 2021,
+      "event": "Bahrain 2021 Asian Youth Para Games",
+      "location": "Manama, Bahrain",
+      "significance": "Jaspreet Singh Dhaliwal served as Deputy Chef de Mission."
+    },
+    {
+      "year": 2024,
+      "event": "Manama 2024 World Boccia Challenger",
+      "location": "Manama, Bahrain",
+      "significance": "Historic 6-medal sweep by the Indian Boccia team led by BSFI President Jaspreet Singh Dhaliwal. Included India's first-ever individual international Boccia medal (Pooja Gupta, BC4 Bronze), Sachin Chamaria (BC3 Gold), and Jatin Kushwaha & Pooja Gupta (BC4 Pairs Silver)."
+    },
+    {
+      "year": 2026,
+      "event": "World Boccia Annual General Meeting 2026",
+      "location": "Seoul, South Korea",
+      "significance": "BSFI President Jaspreet Singh Dhaliwal and Chairman Ashok Bedi represented India at the global governing body summit, advancing India's hosting rights and bilateral development."
+    },
+    {
+      "year": 2026,
+      "event": "Pilsen 2026 World Boccia Challenger",
+      "location": "Pilsen, Czech Republic",
+      "significance": "Contingent of 6 Indian athletes competing across BC1, BC2, and BC3 categories."
+    },
+    {
+      "year": 2026,
+      "event": "Cairo 2026 World Boccia Challenger",
+      "location": "Cairo, Egypt",
+      "significance": "Expansion of India's World Boccia circuit participation."
+    }
+  ],
+  "hall_of_fame_athletes": [
+    {
+      "name": "Pooja Gupta",
+      "category": "BC4",
+      "hometown": "Rewari, Haryana",
+      "condition": "Hereditary Motor Sensory Neuropathy",
+      "achievement": "First Indian athlete in history to win an individual international medal in Boccia (Bronze at Bahrain 2024 World Boccia Challenger) and Silver in BC4 Pairs.",
+      "image": "assets/images/star-players/pooja-gupta-bc4.webp"
+    },
+    {
+      "name": "Sachin Chamaria",
+      "category": "BC3",
+      "achievement": "Gold Medalist at Bahrain 2024 World Boccia Challenger (BC3 Male Individual).",
+      "image": "assets/images/star-players/sachin-chamaria-bc3-gold.webp"
+    },
+    {
+      "name": "Jatin Kumar Kushwaha",
+      "category": "BC4",
+      "achievement": "Silver Medalist in BC4 Pairs and Bronze Medalist in BC4 Male Individual at Bahrain 2024 World Boccia Challenger.",
+      "image": "assets/images/star-players/jatin-kushwaha-bc4.webp"
+    },
+    {
+      "name": "Sandhya Bhumij",
+      "category": "BC1",
+      "achievement": "Spectacular Gold Medal performance in the BC1 category, opening a glorious new chapter for Indian Boccia.",
+      "image": "assets/images/news/sandhya-gold-medal-celebration.webp"
+    },
+    {
+      "name": "Ajeya Raj",
+      "category": "BC3",
+      "achievement": "Bronze Medalist in BC3 Individual category at Bahrain 2024 World Boccia Challenger.",
+      "image": "assets/images/star-players/ajeya-raj-bc3.webp"
+    }
+  ]
+}

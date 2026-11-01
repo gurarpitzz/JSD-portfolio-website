@@ -1,0 +1,2 @@
+--- Starting Test ---
+[2026-11-01T10:30:22.652Z] Connecting to ws: ws://127.0.0.1:9222/devtools/browser/464a3d9c-5905-4cae-aea9-bb6e3bf743c6

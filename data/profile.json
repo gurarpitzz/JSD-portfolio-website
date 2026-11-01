@@ -1,0 +1,157 @@
+{
+  "personal_info": {
+    "full_name": "Jaspreet Singh Dhaliwal",
+    "official_name_pci": "Mr. Jaspreet Singh S/o Joginder Singh",
+    "primary_title": "President, Boccia Sports Federation of India (BSFI) | Sports Administrator & Para-Sports Pioneer",
+    "linkedin_headline": "Founder & President of Boccia India || Referee World Boccia || Social Worker || Int’ Athlete",
+    "secondary_titles": [
+      "Founder, Para Boccia Sports Welfare Society (2016)",
+      "International Referee & Education Professional, World Boccia (BISFed)",
+      "Secretary, Punjab Para Sports Association",
+      "Chairman, Transportation Committee (New Delhi 2025 World Para Athletics Championships)",
+      "Deputy Chef de Mission, Indian Contingent (Bahrain 2021 Asian Youth Para Games)",
+      "Member, Local Organising Committee (LOC), Paralympic Committee of India (PCI)"
+    ],
+    "email": {
+      "official": "president@bocciaindia.com",
+      "office": "office@bocciaindia.com",
+      "secondary": "bocciaindia@gmail.com"
+    },
+    "website": "https://bocciaindia.com",
+    "registered_residence": "#69, VPO Ablu, Tehsil & District Bathinda, Punjab – 151201, India",
+    "hq_delhi_office": "LG-101, Bharat Chamber, 70/71 Scindia House, Connaught Circus, New Delhi – 110001, India",
+    "social_profiles": {
+      "linkedin": "http://linkedin.com/in/jaspreet-singh-dhaliwal-9951a69b/"
+    },
+    "location_base": "Chandigarh & Bathinda, Punjab, India",
+    "followers_count": 437,
+    "connections_count": 370,
+    "avatar_image": "assets/images/profile/jaspreet_singh_dhaliwal_headshot.jpg",
+    "cover_image": "assets/images/profile/jaspreet_singh_linkedin_cover.jpg",
+    "tags": [
+      "sports-administrator",
+      "paralympic-leader",
+      "boccia-pioneer",
+      "bsfi-president",
+      "world-boccia-referee",
+      "chef-de-mission",
+      "transportation-chair",
+      "loc-expert",
+      "equipment-innovator",
+      "social-worker"
+    ]
+  },
+  "about": "Experienced Board Member with a demonstrated history of working in the non-profit organization management industry. Skilled in Nonprofit Organizations, Public Speaking, Management, Leadership, and Event Planning. Strong business development professional with a Master's degree focused in Political Science and Government from Punjabi University.",
+  "services_offered": [
+    "Executive Coaching",
+    "Leadership Development",
+    "Event Planning",
+    "Human Resources (HR)"
+  ],
+  "experience": [
+    {
+      "company": "World Boccia (BISFed)",
+      "total_tenure": "2 yrs 2 mos",
+      "roles": [
+        {
+          "title": "Education Professional",
+          "period": "Oct 2025 – Present",
+          "duration": "1 yr 2 mos",
+          "location_type": "On-site"
+        },
+        {
+          "title": "Referee",
+          "period": "Oct 2024 – Present",
+          "duration": "2 yrs 2 mos",
+          "location_type": "International"
+        }
+      ]
+    },
+    {
+      "company": "Boccia India (Boccia Sports Federation of India - BSFI)",
+      "total_tenure": "14 yrs 8 mos",
+      "roles": [
+        {
+          "title": "President",
+          "employment_type": "Full-time",
+          "period": "Apr 2012 – Present",
+          "duration": "14 yrs 8 mos",
+          "location": "India · Remote",
+          "skills": ["Sports Management", "Leadership", "Nonprofit Organizations"],
+          "featured_media": "assets/images/activity/linkedin_post_img_29.jpg",
+          "featured_media_caption": "At GoSports Foundation event"
+        },
+        {
+          "title": "Head Coach",
+          "period": "Oct 2018",
+          "duration": "1 mo",
+          "location": "Jakarta, Indonesia · On-site",
+          "event": "Asian Para Games 2018, Jakarta, Indonesia 🇮🇩"
+        }
+      ]
+    },
+    {
+      "company": "Punjab Para Sports Association",
+      "total_tenure": "6 yrs 11 mos",
+      "roles": [
+        {
+          "title": "Secretary",
+          "employment_type": "Part-time",
+          "period": "Jan 2020 – Present",
+          "duration": "6 yrs 11 mos",
+          "location": "Remote",
+          "description": "Working for Disability Sports and Para-Athlete Advocacy across Punjab",
+          "skills": ["Sports Management", "Leadership", "Disability Advocacy"]
+        }
+      ]
+    },
+    {
+      "company": "Paralympic Committee of India (PCI)",
+      "roles": [
+        {
+          "title": "Member of Local Organising Committee (LOC)",
+          "employment_type": "Freelance",
+          "period": "Mar 2026",
+          "duration": "1 mo",
+          "location": "Kalinga Stadium, Bhubaneswar, Odisha · On-site",
+          "event": "24th National Para Athletics Championship 2025–26"
+        },
+        {
+          "title": "Head of Operations / Chairman of Transportation Committee",
+          "period": "Oct 2025",
+          "duration": "1 mo",
+          "location": "New Delhi, Delhi, India · On-site",
+          "event": "New Delhi 2025 World Para Athletics Championships"
+        },
+        {
+          "title": "Deputy Chef de Mission",
+          "period": "Dec 2021",
+          "location": "Kingdom of Bahrain",
+          "event": "Bahrain 2021 Asian Youth Para Games"
+        },
+        {
+          "title": "Official Delegate",
+          "period": "Oct 2023",
+          "location": "Hangzhou, China",
+          "event": "Hangzhou 2022 Asian Para Games"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Punjabi University, Patiala",
+      "degree": "Master's Degree",
+      "field_of_study": "Political Science and Government"
+    },
+    {
+      "institution": "Panjab University, Chandigarh",
+      "degree": "Higher Education"
+    }
+  ],
+  "social_counts": {
+    "followers": 437,
+    "connections": 370,
+    "authored_feed_posts": 20
+  }
+}

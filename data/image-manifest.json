@@ -1,0 +1,752 @@
+[
+  {
+    "id": "asset-001",
+    "filename": "PCI_Official_Letter_Jaspreet_Singh.pdf",
+    "path": "assets/documents/PCI_Official_Letter_Jaspreet_Singh.pdf",
+    "category": "documents",
+    "filesize_bytes": 988762,
+    "extension": ".pdf",
+    "alt_text": "Pci Official Letter Jaspreet Singh",
+    "suggested_component_usage": "Official Credentials & Downloads Modal"
+  },
+  {
+    "id": "asset-002",
+    "filename": "linkedin_post_img_10.jpg",
+    "path": "assets/images/activity/linkedin_post_img_10.jpg",
+    "category": "activity",
+    "filesize_bytes": 71671,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Post Img 10",
+    "suggested_component_usage": "LinkedIn Activity Feed / Tournament Grid"
+  },
+  {
+    "id": "asset-003",
+    "filename": "linkedin_post_img_12.jpg",
+    "path": "assets/images/activity/linkedin_post_img_12.jpg",
+    "category": "activity",
+    "filesize_bytes": 26240,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Post Img 12",
+    "suggested_component_usage": "LinkedIn Activity Feed / Tournament Grid"
+  },
+  {
+    "id": "asset-004",
+    "filename": "linkedin_post_img_14.jpg",
+    "path": "assets/images/activity/linkedin_post_img_14.jpg",
+    "category": "activity",
+    "filesize_bytes": 31561,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Post Img 14",
+    "suggested_component_usage": "LinkedIn Activity Feed / Tournament Grid"
+  },
+  {
+    "id": "asset-005",
+    "filename": "linkedin_post_img_16.jpg",
+    "path": "assets/images/activity/linkedin_post_img_16.jpg",
+    "category": "activity",
+    "filesize_bytes": 29817,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Post Img 16",
+    "suggested_component_usage": "LinkedIn Activity Feed / Tournament Grid"
+  },
+  {
+    "id": "asset-006",
+    "filename": "linkedin_post_img_18.jpg",
+    "path": "assets/images/activity/linkedin_post_img_18.jpg",
+    "category": "activity",
+    "filesize_bytes": 40712,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Post Img 18",
+    "suggested_component_usage": "LinkedIn Activity Feed / Tournament Grid"
+  },
+  {
+    "id": "asset-007",
+    "filename": "linkedin_post_img_2.jpg",
+    "path": "assets/images/activity/linkedin_post_img_2.jpg",
+    "category": "activity",
+    "filesize_bytes": 46986,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Post Img 2",
+    "suggested_component_usage": "LinkedIn Activity Feed / Tournament Grid"
+  },
+  {
+    "id": "asset-008",
+    "filename": "linkedin_post_img_20.jpg",
+    "path": "assets/images/activity/linkedin_post_img_20.jpg",
+    "category": "activity",
+    "filesize_bytes": 45141,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Post Img 20",
+    "suggested_component_usage": "LinkedIn Activity Feed / Tournament Grid"
+  },
+  {
+    "id": "asset-009",
+    "filename": "linkedin_post_img_22.jpg",
+    "path": "assets/images/activity/linkedin_post_img_22.jpg",
+    "category": "activity",
+    "filesize_bytes": 33713,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Post Img 22",
+    "suggested_component_usage": "LinkedIn Activity Feed / Tournament Grid"
+  },
+  {
+    "id": "asset-010",
+    "filename": "linkedin_post_img_24.jpg",
+    "path": "assets/images/activity/linkedin_post_img_24.jpg",
+    "category": "activity",
+    "filesize_bytes": 37450,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Post Img 24",
+    "suggested_component_usage": "LinkedIn Activity Feed / Tournament Grid"
+  },
+  {
+    "id": "asset-011",
+    "filename": "linkedin_post_img_26.jpg",
+    "path": "assets/images/activity/linkedin_post_img_26.jpg",
+    "category": "activity",
+    "filesize_bytes": 42522,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Post Img 26",
+    "suggested_component_usage": "LinkedIn Activity Feed / Tournament Grid"
+  },
+  {
+    "id": "asset-012",
+    "filename": "linkedin_post_img_29.jpg",
+    "path": "assets/images/activity/linkedin_post_img_29.jpg",
+    "category": "activity",
+    "filesize_bytes": 26594,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Post Img 29",
+    "suggested_component_usage": "LinkedIn Activity Feed / Tournament Grid"
+  },
+  {
+    "id": "asset-013",
+    "filename": "linkedin_post_img_8.jpg",
+    "path": "assets/images/activity/linkedin_post_img_8.jpg",
+    "category": "activity",
+    "filesize_bytes": 27308,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Post Img 8",
+    "suggested_component_usage": "LinkedIn Activity Feed / Tournament Grid"
+  },
+  {
+    "id": "asset-014",
+    "filename": "boccia-india-award-ceremony-2026.webp",
+    "path": "assets/images/gallery/boccia-india-award-ceremony-2026.webp",
+    "category": "gallery",
+    "filesize_bytes": 31076,
+    "extension": ".webp",
+    "alt_text": "Boccia India Award Ceremony 2026",
+    "suggested_component_usage": "Championships & Milestones Gallery"
+  },
+  {
+    "id": "asset-015",
+    "filename": "cairo-world-challenger-2026.webp",
+    "path": "assets/images/gallery/cairo-world-challenger-2026.webp",
+    "category": "gallery",
+    "filesize_bytes": 22144,
+    "extension": ".webp",
+    "alt_text": "Cairo World Challenger 2026",
+    "suggested_component_usage": "Championships & Milestones Gallery"
+  },
+  {
+    "id": "asset-016",
+    "filename": "icmr-iit-madras-bc3-ramp-launch.webp",
+    "path": "assets/images/gallery/icmr-iit-madras-bc3-ramp-launch.webp",
+    "category": "gallery",
+    "filesize_bytes": 20492,
+    "extension": ".webp",
+    "alt_text": "Icmr Iit Madras Bc3 Ramp Launch",
+    "suggested_component_usage": "Championships & Milestones Gallery"
+  },
+  {
+    "id": "asset-017",
+    "filename": "national-coaching-camp-solan-2026.webp",
+    "path": "assets/images/gallery/national-coaching-camp-solan-2026.webp",
+    "category": "gallery",
+    "filesize_bytes": 27884,
+    "extension": ".webp",
+    "alt_text": "National Coaching Camp Solan 2026",
+    "suggested_component_usage": "Championships & Milestones Gallery"
+  },
+  {
+    "id": "asset-018",
+    "filename": "pilsen-2026-world-challenger-team.webp",
+    "path": "assets/images/gallery/pilsen-2026-world-challenger-team.webp",
+    "category": "gallery",
+    "filesize_bytes": 34124,
+    "extension": ".webp",
+    "alt_text": "Pilsen 2026 World Challenger Team",
+    "suggested_component_usage": "Championships & Milestones Gallery"
+  },
+  {
+    "id": "asset-019",
+    "filename": "world-boccia-agm-seoul-2026.webp",
+    "path": "assets/images/gallery/world-boccia-agm-seoul-2026.webp",
+    "category": "gallery",
+    "filesize_bytes": 16856,
+    "extension": ".webp",
+    "alt_text": "World Boccia Agm Seoul 2026",
+    "suggested_component_usage": "Championships & Milestones Gallery"
+  },
+  {
+    "id": "asset-020",
+    "filename": "anti-doping-logo.jpg",
+    "path": "assets/images/logos-affiliations/anti-doping-logo.jpg",
+    "category": "logos-affiliations",
+    "filesize_bytes": 38352,
+    "extension": ".jpg",
+    "alt_text": "Anti Doping Logo",
+    "suggested_component_usage": "Affiliations Ribbon & Trust Badges"
+  },
+  {
+    "id": "asset-021",
+    "filename": "boccia-india-logo.webp",
+    "path": "assets/images/logos-affiliations/boccia-india-logo.webp",
+    "category": "logos-affiliations",
+    "filesize_bytes": 92074,
+    "extension": ".webp",
+    "alt_text": "Boccia India Logo",
+    "suggested_component_usage": "Affiliations Ribbon & Trust Badges"
+  },
+  {
+    "id": "asset-022",
+    "filename": "icmr-logo.jpg",
+    "path": "assets/images/logos-affiliations/icmr-logo.jpg",
+    "category": "logos-affiliations",
+    "filesize_bytes": 90675,
+    "extension": ".jpg",
+    "alt_text": "Icmr Logo",
+    "suggested_component_usage": "Affiliations Ribbon & Trust Badges"
+  },
+  {
+    "id": "asset-023",
+    "filename": "paralympic-committee-india-logo.webp",
+    "path": "assets/images/logos-affiliations/paralympic-committee-india-logo.webp",
+    "category": "logos-affiliations",
+    "filesize_bytes": 40130,
+    "extension": ".webp",
+    "alt_text": "Paralympic Committee India Logo",
+    "suggested_component_usage": "Affiliations Ribbon & Trust Badges"
+  },
+  {
+    "id": "asset-024",
+    "filename": "world-boccia-logo.webp",
+    "path": "assets/images/logos-affiliations/world-boccia-logo.webp",
+    "category": "logos-affiliations",
+    "filesize_bytes": 12142,
+    "extension": ".webp",
+    "alt_text": "World Boccia Logo",
+    "suggested_component_usage": "Affiliations Ribbon & Trust Badges"
+  },
+  {
+    "id": "asset-025",
+    "filename": "bahrain-6-medal-historic-victory.webp",
+    "path": "assets/images/news/bahrain-6-medal-historic-victory.webp",
+    "category": "news",
+    "filesize_bytes": 165512,
+    "extension": ".webp",
+    "alt_text": "Bahrain 6 Medal Historic Victory",
+    "suggested_component_usage": "News Showcase / Technology Feature"
+  },
+  {
+    "id": "asset-026",
+    "filename": "icmr-ramp-demo-1.webp",
+    "path": "assets/images/news/icmr-ramp-demo-1.webp",
+    "category": "news",
+    "filesize_bytes": 845118,
+    "extension": ".webp",
+    "alt_text": "Icmr Ramp Demo 1",
+    "suggested_component_usage": "News Showcase / Technology Feature"
+  },
+  {
+    "id": "asset-027",
+    "filename": "icmr-ramp-demo-2.webp",
+    "path": "assets/images/news/icmr-ramp-demo-2.webp",
+    "category": "news",
+    "filesize_bytes": 669804,
+    "extension": ".webp",
+    "alt_text": "Icmr Ramp Demo 2",
+    "suggested_component_usage": "News Showcase / Technology Feature"
+  },
+  {
+    "id": "asset-028",
+    "filename": "sandhya-gold-medal-celebration.webp",
+    "path": "assets/images/news/sandhya-gold-medal-celebration.webp",
+    "category": "news",
+    "filesize_bytes": 86136,
+    "extension": ".webp",
+    "alt_text": "Sandhya Gold Medal Celebration",
+    "suggested_component_usage": "News Showcase / Technology Feature"
+  },
+  {
+    "id": "asset-029",
+    "filename": "sci-day-awareness-2026.webp",
+    "path": "assets/images/news/sci-day-awareness-2026.webp",
+    "category": "news",
+    "filesize_bytes": 109308,
+    "extension": ".webp",
+    "alt_text": "Sci Day Awareness 2026",
+    "suggested_component_usage": "News Showcase / Technology Feature"
+  },
+  {
+    "id": "asset-030",
+    "filename": "solan-national-camp-cover.webp",
+    "path": "assets/images/news/solan-national-camp-cover.webp",
+    "category": "news",
+    "filesize_bytes": 186056,
+    "extension": ".webp",
+    "alt_text": "Solan National Camp Cover",
+    "suggested_component_usage": "News Showcase / Technology Feature"
+  },
+  {
+    "id": "asset-031",
+    "filename": "jaspreet_profile_avatar_0.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_0.jpg",
+    "category": "profile",
+    "filesize_bytes": 3222,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 0",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-032",
+    "filename": "jaspreet_profile_avatar_1.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_1.jpg",
+    "category": "profile",
+    "filesize_bytes": 5388,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 1",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-033",
+    "filename": "jaspreet_profile_avatar_11.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_11.jpg",
+    "category": "profile",
+    "filesize_bytes": 5388,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 11",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-034",
+    "filename": "jaspreet_profile_avatar_13.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_13.jpg",
+    "category": "profile",
+    "filesize_bytes": 5388,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 13",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-035",
+    "filename": "jaspreet_profile_avatar_15.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_15.jpg",
+    "category": "profile",
+    "filesize_bytes": 5388,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 15",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-036",
+    "filename": "jaspreet_profile_avatar_17.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_17.jpg",
+    "category": "profile",
+    "filesize_bytes": 5388,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 17",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-037",
+    "filename": "jaspreet_profile_avatar_19.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_19.jpg",
+    "category": "profile",
+    "filesize_bytes": 5388,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 19",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-038",
+    "filename": "jaspreet_profile_avatar_21.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_21.jpg",
+    "category": "profile",
+    "filesize_bytes": 5388,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 21",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-039",
+    "filename": "jaspreet_profile_avatar_23.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_23.jpg",
+    "category": "profile",
+    "filesize_bytes": 5388,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 23",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-040",
+    "filename": "jaspreet_profile_avatar_25.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_25.jpg",
+    "category": "profile",
+    "filesize_bytes": 5388,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 25",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-041",
+    "filename": "jaspreet_profile_avatar_3.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_3.jpg",
+    "category": "profile",
+    "filesize_bytes": 5388,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 3",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-042",
+    "filename": "jaspreet_profile_avatar_32.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_32.jpg",
+    "category": "profile",
+    "filesize_bytes": 3638,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 32",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-043",
+    "filename": "jaspreet_profile_avatar_33.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_33.jpg",
+    "category": "profile",
+    "filesize_bytes": 3536,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 33",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-044",
+    "filename": "jaspreet_profile_avatar_34.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_34.jpg",
+    "category": "profile",
+    "filesize_bytes": 5437,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 34",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-045",
+    "filename": "jaspreet_profile_avatar_35.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_35.jpg",
+    "category": "profile",
+    "filesize_bytes": 5778,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 35",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-046",
+    "filename": "jaspreet_profile_avatar_36.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_36.jpg",
+    "category": "profile",
+    "filesize_bytes": 3586,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 36",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-047",
+    "filename": "jaspreet_profile_avatar_37.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_37.jpg",
+    "category": "profile",
+    "filesize_bytes": 4655,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 37",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-048",
+    "filename": "jaspreet_profile_avatar_39.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_39.jpg",
+    "category": "profile",
+    "filesize_bytes": 3540,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 39",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-049",
+    "filename": "jaspreet_profile_avatar_40.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_40.jpg",
+    "category": "profile",
+    "filesize_bytes": 3580,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 40",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-050",
+    "filename": "jaspreet_profile_avatar_41.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_41.jpg",
+    "category": "profile",
+    "filesize_bytes": 4457,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 41",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-051",
+    "filename": "jaspreet_profile_avatar_42.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_42.jpg",
+    "category": "profile",
+    "filesize_bytes": 5410,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 42",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-052",
+    "filename": "jaspreet_profile_avatar_43.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_43.jpg",
+    "category": "profile",
+    "filesize_bytes": 3342,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 43",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-053",
+    "filename": "jaspreet_profile_avatar_44.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_44.jpg",
+    "category": "profile",
+    "filesize_bytes": 4166,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 44",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-054",
+    "filename": "jaspreet_profile_avatar_45.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_45.jpg",
+    "category": "profile",
+    "filesize_bytes": 4744,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 45",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-055",
+    "filename": "jaspreet_profile_avatar_7.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_7.jpg",
+    "category": "profile",
+    "filesize_bytes": 5388,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 7",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-056",
+    "filename": "jaspreet_profile_avatar_9.jpg",
+    "path": "assets/images/profile/jaspreet_profile_avatar_9.jpg",
+    "category": "profile",
+    "filesize_bytes": 5388,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Profile Avatar 9",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-057",
+    "filename": "jaspreet_singh_dhaliwal_headshot.jpg",
+    "path": "assets/images/profile/jaspreet_singh_dhaliwal_headshot.jpg",
+    "category": "profile",
+    "filesize_bytes": 5388,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Singh Dhaliwal Headshot",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-058",
+    "filename": "jaspreet_singh_linkedin_cover.jpg",
+    "path": "assets/images/profile/jaspreet_singh_linkedin_cover.jpg",
+    "category": "profile",
+    "filesize_bytes": 46986,
+    "extension": ".jpg",
+    "alt_text": "Jaspreet Singh Linkedin Cover",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-059",
+    "filename": "linkedin_logo_media_27.jpg",
+    "path": "assets/images/profile/linkedin_logo_media_27.jpg",
+    "category": "profile",
+    "filesize_bytes": 3327,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Logo Media 27",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-060",
+    "filename": "linkedin_logo_media_28.jpg",
+    "path": "assets/images/profile/linkedin_logo_media_28.jpg",
+    "category": "profile",
+    "filesize_bytes": 5067,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Logo Media 28",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-061",
+    "filename": "linkedin_logo_media_30.jpg",
+    "path": "assets/images/profile/linkedin_logo_media_30.jpg",
+    "category": "profile",
+    "filesize_bytes": 2755,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Logo Media 30",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-062",
+    "filename": "linkedin_logo_media_31.jpg",
+    "path": "assets/images/profile/linkedin_logo_media_31.jpg",
+    "category": "profile",
+    "filesize_bytes": 2755,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Logo Media 31",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-063",
+    "filename": "linkedin_logo_media_38.jpg",
+    "path": "assets/images/profile/linkedin_logo_media_38.jpg",
+    "category": "profile",
+    "filesize_bytes": 4134,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Logo Media 38",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-064",
+    "filename": "linkedin_logo_media_4.jpg",
+    "path": "assets/images/profile/linkedin_logo_media_4.jpg",
+    "category": "profile",
+    "filesize_bytes": 5067,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Logo Media 4",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-065",
+    "filename": "linkedin_logo_media_46.jpg",
+    "path": "assets/images/profile/linkedin_logo_media_46.jpg",
+    "category": "profile",
+    "filesize_bytes": 3623,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Logo Media 46",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-066",
+    "filename": "linkedin_logo_media_47.jpg",
+    "path": "assets/images/profile/linkedin_logo_media_47.jpg",
+    "category": "profile",
+    "filesize_bytes": 1758,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Logo Media 47",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-067",
+    "filename": "linkedin_logo_media_5.jpg",
+    "path": "assets/images/profile/linkedin_logo_media_5.jpg",
+    "category": "profile",
+    "filesize_bytes": 6233,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Logo Media 5",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-068",
+    "filename": "linkedin_logo_media_6.jpg",
+    "path": "assets/images/profile/linkedin_logo_media_6.jpg",
+    "category": "profile",
+    "filesize_bytes": 5067,
+    "extension": ".jpg",
+    "alt_text": "Linkedin Logo Media 6",
+    "suggested_component_usage": "Hero / Profile Card / Header Identity"
+  },
+  {
+    "id": "asset-069",
+    "filename": "ajeya-raj-bc3.webp",
+    "path": "assets/images/star-players/ajeya-raj-bc3.webp",
+    "category": "star-players",
+    "filesize_bytes": 61912,
+    "extension": ".webp",
+    "alt_text": "Ajeya Raj Bc3",
+    "suggested_component_usage": "Athlete Spotlight & Hall of Fame Grid"
+  },
+  {
+    "id": "asset-070",
+    "filename": "anjali-devi.webp",
+    "path": "assets/images/star-players/anjali-devi.webp",
+    "category": "star-players",
+    "filesize_bytes": 27950,
+    "extension": ".webp",
+    "alt_text": "Anjali Devi",
+    "suggested_component_usage": "Athlete Spotlight & Hall of Fame Grid"
+  },
+  {
+    "id": "asset-071",
+    "filename": "jatin-kushwaha-bc4.webp",
+    "path": "assets/images/star-players/jatin-kushwaha-bc4.webp",
+    "category": "star-players",
+    "filesize_bytes": 31190,
+    "extension": ".webp",
+    "alt_text": "Jatin Kushwaha Bc4",
+    "suggested_component_usage": "Athlete Spotlight & Hall of Fame Grid"
+  },
+  {
+    "id": "asset-072",
+    "filename": "pooja-gupta-bc4.webp",
+    "path": "assets/images/star-players/pooja-gupta-bc4.webp",
+    "category": "star-players",
+    "filesize_bytes": 114246,
+    "extension": ".webp",
+    "alt_text": "Pooja Gupta Bc4",
+    "suggested_component_usage": "Athlete Spotlight & Hall of Fame Grid"
+  },
+  {
+    "id": "asset-073",
+    "filename": "sachin-chamaria-bc3-gold.webp",
+    "path": "assets/images/star-players/sachin-chamaria-bc3-gold.webp",
+    "category": "star-players",
+    "filesize_bytes": 52850,
+    "extension": ".webp",
+    "alt_text": "Sachin Chamaria Bc3 Gold",
+    "suggested_component_usage": "Athlete Spotlight & Hall of Fame Grid"
+  },
+  {
+    "id": "asset-074",
+    "filename": "sarita-athlete.webp",
+    "path": "assets/images/star-players/sarita-athlete.webp",
+    "category": "star-players",
+    "filesize_bytes": 51194,
+    "extension": ".webp",
+    "alt_text": "Sarita Athlete",
+    "suggested_component_usage": "Athlete Spotlight & Hall of Fame Grid"
+  },
+  {
+    "id": "asset-075",
+    "filename": "vyom-pawa.webp",
+    "path": "assets/images/star-players/vyom-pawa.webp",
+    "category": "star-players",
+    "filesize_bytes": 50854,
+    "extension": ".webp",
+    "alt_text": "Vyom Pawa",
+    "suggested_component_usage": "Athlete Spotlight & Hall of Fame Grid"
+  }
+]

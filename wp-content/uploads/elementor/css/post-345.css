@@ -1,0 +1,64 @@
+.elementor-345 .elementor-element.elementor-element-d2390ce{--display:flex;--min-height:100vh;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--overflow:hidden;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-345 .elementor-element.elementor-element-0d72e90{--display:flex;--min-height:100vh;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-345 .elementor-element.elementor-element-0d72e90:not(.elementor-motion-effects-element-type-background), .elementor-345 .elementor-element.elementor-element-0d72e90 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#0D0D0F;}.elementor-345 .elementor-element.elementor-element-e761416{--display:flex;--justify-content:center;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:50px;--padding-right:0px;}.elementor-345 .elementor-element.elementor-element-e761416:not(.elementor-motion-effects-element-type-background), .elementor-345 .elementor-element.elementor-element-e761416 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#2C243A;}.elementor-345 .elementor-element.elementor-element-6887496{--display:flex;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-345 .elementor-element.elementor-element-3d8332a .elementor-heading-title{font-family:"Koulen", Sans-serif;font-size:80px;font-weight:400;line-height:1em;color:var( --e-global-color-text );}.elementor-345 .elementor-element.elementor-element-91a4e28 .elementor-heading-title{font-family:"Koulen", Sans-serif;font-size:80px;font-weight:400;line-height:1em;}.elementor-widget-text-editor{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );color:var( --e-global-color-text );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-345 .elementor-element.elementor-element-b7bad39{width:var( --container-widget-width, 45% );max-width:45%;--container-widget-width:45%;--container-widget-flex-grow:0;font-family:"SF Pro Display", Sans-serif;font-size:22px;font-weight:400;line-height:1.4em;}.elementor-345 .elementor-element.elementor-element-b7bad39 > .elementor-widget-container{padding:10px 0px 0px 0px;}.elementor-345 .elementor-element.elementor-element-1877c1e{--display:flex;--justify-content:center;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-345 .elementor-element.elementor-element-8d8ab49{--swiper-slides-to-display:3;--swiper-slides-gap:20px;--arrow-prev-left-align:100%;--arrow-prev-translate-x:-100%;--arrow-prev-left-position:-140px;--arrow-prev-top-align:100%;--arrow-prev-translate-y:-100%;--arrow-prev-top-position:100px;--arrow-next-right-align:0%;--arrow-next-translate-x:0%;--arrow-next-right-position:80px;--arrow-next-top-align:100%;--arrow-next-translate-y:-100%;--arrow-next-top-position:100px;--arrow-size:40px;}.elementor-345 .elementor-element.elementor-element-8d8ab49 > .elementor-widget-container{margin:0px 0px 0px -280px;}.elementor-345 .elementor-element.elementor-element-8d8ab49 .swiper-slide > .elementor-element{height:100%;}@media(max-width:1024px){.elementor-345 .elementor-element.elementor-element-8d8ab49{--swiper-slides-to-display:2;}}@media(max-width:767px){.elementor-345 .elementor-element.elementor-element-0d72e90{--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-345 .elementor-element.elementor-element-e761416{--padding-top:120px;--padding-bottom:0px;--padding-left:20px;--padding-right:20px;}.elementor-345 .elementor-element.elementor-element-6887496{--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:center;--gap:0px 10px;--row-gap:0px;--column-gap:10px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-345 .elementor-element.elementor-element-3d8332a{text-align:center;}.elementor-345 .elementor-element.elementor-element-3d8332a .elementor-heading-title{font-size:45px;}.elementor-345 .elementor-element.elementor-element-91a4e28{text-align:center;}.elementor-345 .elementor-element.elementor-element-91a4e28 .elementor-heading-title{font-size:45px;}.elementor-345 .elementor-element.elementor-element-b7bad39{width:100%;max-width:100%;text-align:center;font-size:16px;}.elementor-345 .elementor-element.elementor-element-1877c1e{--padding-top:20px;--padding-bottom:70px;--padding-left:20px;--padding-right:20px;}.elementor-345 .elementor-element.elementor-element-8d8ab49{--swiper-slides-to-display:3;--arrow-prev-left-align:50%;--arrow-prev-translate-x:-50%;--arrow-prev-left-position:-25px;--arrow-prev-top-position:70px;--arrow-next-right-align:50%;--arrow-next-translate-x:50%;--arrow-next-right-position:-25px;--arrow-next-top-position:70px;--arrow-size:30px;}.elementor-345 .elementor-element.elementor-element-8d8ab49 > .elementor-widget-container{margin:0px -200px 0px -200px;}}@media(min-width:768px){.elementor-345 .elementor-element.elementor-element-e761416{--width:58%;}.elementor-345 .elementor-element.elementor-element-1877c1e{--width:42%;}}/* Start custom CSS for loop-carousel, class: .elementor-element-8d8ab49 */.elementor-345 .elementor-element.elementor-element-8d8ab49 .swiper-slide-active{
+    height: 400px !important;
+    top: 0px !important;
+    
+}
+.elementor-345 .elementor-element.elementor-element-8d8ab49 .swiper-slide{
+    height: 350px;
+    position: relative;
+    top: 30px;
+}
+
+.elementor-345 .elementor-element.elementor-element-8d8ab49 .swiper-slide .news-link {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.4s ease-in;
+}
+
+.elementor-345 .elementor-element.elementor-element-8d8ab49 .swiper-slide-active .news-link {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){  
+    
+    .elementor-345 .elementor-element.elementor-element-8d8ab49 .swiper-slide-active, .elementor-345 .elementor-element.elementor-element-8d8ab49 .swiper-slide{
+    height: 300px !important;
+    position: relative;
+    top: 30px !important;
+}
+.elementor-345 .elementor-element.elementor-element-8d8ab49 .swiper-slide-active .news-link {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.4s ease-in;
+}
+
+.elementor-345 .elementor-element.elementor-element-8d8ab49 .swiper-slide-next .news-link {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.4s ease-in;
+}
+.elementor-345 .elementor-element.elementor-element-8d8ab49 .swiper-slide-next .news-link{
+    opacity: 1;
+    transform: translateY(0);
+}
+.elementor-345 .elementor-element.elementor-element-8d8ab49 .swiper-slide-next{
+    height: 350px !important;
+    top: 0px !important;
+    
+}
+}/* End custom CSS */
+/* Start custom CSS */body.elementor-page-345 .site-footer{
+    display: none;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'SF Pro Display';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('/wp-content/uploads/2024/07/SF-Pro-Display-Regular.woff2') format('woff2'),
+		url('/wp-content/uploads/2024/07/SF-Pro-Display-Regular.woff') format('woff'),
+		url('/wp-content/uploads/2024/07/SF-Pro-Display-Regular.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

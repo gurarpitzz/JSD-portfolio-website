@@ -1,0 +1,108 @@
+.elementor-347 .elementor-element.elementor-element-fe52cf5{--display:flex;--min-height:100vh;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--overflow:hidden;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:80px;--padding-bottom:80px;--padding-left:0px;--padding-right:0px;}.elementor-347 .elementor-element.elementor-element-fe52cf5:not(.elementor-motion-effects-element-type-background), .elementor-347 .elementor-element.elementor-element-fe52cf5 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#0F0D0D;background-image:url("/wp-content/uploads/2024/07/gallery-bg.png");background-position:50% 90%;background-repeat:no-repeat;background-size:40% auto;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-347 .elementor-element.elementor-element-15592f0{text-align:center;}.elementor-347 .elementor-element.elementor-element-15592f0 .elementor-heading-title{font-family:"Koulen", Sans-serif;font-size:160px;font-weight:400;line-height:1em;}.elementor-widget-media-carousel .elementor-carousel-image-overlay{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-347 .elementor-element.elementor-element-4029cdc.elementor-skin-slideshow .elementor-main-swiper:not(.elementor-thumbnails-swiper){margin-bottom:20px;}.elementor-347 .elementor-element.elementor-element-4029cdc > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-347 .elementor-element.elementor-element-4029cdc .elementor-main-swiper{height:22em;}.elementor-347 .elementor-element.elementor-element-4029cdc .elementor-swiper-button{font-size:20px;}.elementor-347 .elementor-element.elementor-element-4029cdc .elementor-carousel-image-overlay{background-color:#0F0D0DD9;--e-carousel-image-overlay-color:var( --e-global-color-primary );font-family:"Koulen", Sans-serif;font-size:24px;font-weight:400;line-height:1.2em;}@media(max-width:1024px){.elementor-347 .elementor-element.elementor-element-fe52cf5:not(.elementor-motion-effects-element-type-background), .elementor-347 .elementor-element.elementor-element-fe52cf5 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-position:0% 0%;}.elementor-347 .elementor-element.elementor-element-4029cdc.elementor-skin-slideshow .elementor-main-swiper:not(.elementor-thumbnails-swiper){margin-bottom:10px;}}@media(max-width:767px){.elementor-347 .elementor-element.elementor-element-fe52cf5:not(.elementor-motion-effects-element-type-background), .elementor-347 .elementor-element.elementor-element-fe52cf5 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-position:50% 50%;background-size:80% auto;}.elementor-347 .elementor-element.elementor-element-fe52cf5{--padding-top:80px;--padding-bottom:50px;--padding-left:0px;--padding-right:0px;}.elementor-347 .elementor-element.elementor-element-15592f0 .elementor-heading-title{font-size:80px;}.elementor-347 .elementor-element.elementor-element-4029cdc.elementor-skin-slideshow .elementor-main-swiper:not(.elementor-thumbnails-swiper){margin-bottom:10px;}.elementor-347 .elementor-element.elementor-element-4029cdc > .elementor-widget-container{padding:0px 0px 0px 0px;}}/* Start custom CSS for heading, class: .elementor-element-15592f0 */.elementor-347 .elementor-element.elementor-element-15592f0{
+    opacity: 0.1;
+background: linear-gradient(180deg, #FCFF80 0%, rgba(252, 255, 128, 0.00) 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}/* End custom CSS */
+/* Start custom CSS for media-carousel, class: .elementor-element-4029cdc */.elementor-347 .elementor-element.elementor-element-4029cdc .swiper-slide {
+    width: 280px;
+    height: 280px; 
+    z-index: 1;
+    transition: width 0.3s, height 0.3s, transform 0.3s;
+    position: relative;
+    bottom: -80px;
+    transform: scaleY(1);
+    left: -5.4%;
+}
+
+.elementor-347 .elementor-element.elementor-element-4029cdc .swiper-slide.swiper-slide-next + .swiper-slide {
+    width: 400px !important;
+    height: 400px;
+    z-index: 2;
+    bottom: 0px;
+}
+
+.elementor-347 .elementor-element.elementor-element-4029cdc .elementor-carousel-image{
+    background-position: top center;
+}
+
+.elementor-347 .elementor-element.elementor-element-4029cdc.elementor-element.elementor-pagination-position-outside .swiper .elementor-swiper-button{
+    top: 0;
+}
+.elementor-347 .elementor-element.elementor-element-4029cdc .elementor-swiper-button-prev {
+    background-image: url(/wp-content/uploads/2024/07/prev.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 65px;
+    z-index: 5;
+    left: 70px;
+}
+.elementor-347 .elementor-element.elementor-element-4029cdc .elementor-swiper-button-next {
+    background-image: url(/wp-content/uploads/2024/07/next.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 65px;
+    z-index: 5;
+    right: unset;
+    left: 140px;
+}
+.elementor-347 .elementor-element.elementor-element-4029cdc .elementor-swiper-button-prev svg, .elementor-347 .elementor-element.elementor-element-4029cdc .elementor-swiper-button-next svg{
+    opacity: 0;
+}
+.elementor-347 .elementor-element.elementor-element-4029cdc.elementor-element .swiper .swiper-pagination-fraction{
+    top: -24px;
+    right: -40%;
+    bottom: unset;
+    left: unset;
+}
+/*.elementor-347 .elementor-element.elementor-element-4029cdc .swiper-slide:not(:hover) .e-overlay-animation-fade {*/
+/*    opacity: 1;*/
+/*}*/
+
+@media only screen and (min-width: 320px) and (max-width: 480px){  
+    .elementor-347 .elementor-element.elementor-element-4029cdc .elementor-swiper-button-next, .elementor-347 .elementor-element.elementor-element-4029cdc .elementor-swiper-button-prev{
+        width: 30px;
+        top: 100% !important;
+    }
+    .elementor-347 .elementor-element.elementor-element-4029cdc .elementor-swiper-button-prev {
+        left: 40px;
+    }
+    .elementor-347 .elementor-element.elementor-element-4029cdc .elementor-swiper-button-next{
+        left: 100px;
+    }
+    .elementor-347 .elementor-element.elementor-element-4029cdc.elementor-element .swiper .swiper-pagination-fraction{
+        right: -34%;
+        top: 90% !important;
+    }
+    .elementor-347 .elementor-element.elementor-element-4029cdc .swiper-slide.swiper-slide-next + .swiper-slide {
+        width: unset !important;
+        height: unset;
+        z-index: 2;
+        bottom: unset;
+        margin-right: 0 !important;
+    }
+    .elementor-347 .elementor-element.elementor-element-4029cdc .swiper-slide{
+        left: -15.5%;
+        width: 180px;
+        height: 160px;
+    }
+    .elementor-347 .elementor-element.elementor-element-4029cdc .swiper-slide.swiper-slide-next{
+        width: 220px !important;
+        height: 200px;
+        bottom: -40px;
+    }
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-fe52cf5 */.elementor-347 .elementor-element.elementor-element-fe52cf5{
+    overflow-x: hidden;
+}/* End custom CSS */
+/* Start custom CSS */body.elementor-page-347 .site-footer{
+    display: none;
+}
+body.elementor-page-347 .elementor-slideshow__title {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Koulen';
+}/* End custom CSS */

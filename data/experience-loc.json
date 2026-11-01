@@ -1,0 +1,181 @@
+{
+  "overview": "Certified service record and official leadership roles with the Paralympic Committee of India (PCI) and international multisport games.",
+  "pci_certificate_details": {
+    "issuing_authority": "Paralympic Committee of India (PCI)",
+    "recognition": "Deemed Public Enterprise, Recognised by Govt. of India",
+    "affiliations": [
+      "IPC Germany",
+      "World Ability Sports UK",
+      "APC UAE"
+    ],
+    "date_of_issuance": "5th May 2026",
+    "signatory": "Jayawant G H, Secretary General, PCI",
+    "president": "Devendra Jhajharia (Padma Bhushan, Khel Ratna Awardee)",
+    "document_path": "assets/documents/PCI_Official_Letter_Jaspreet_Singh.pdf"
+  },
+  "events": [
+    {
+      "id": "exp-001",
+      "title": "New Delhi 2026 World Para Athletics Grand Prix",
+      "dates": "8th to 13th March 2026",
+      "venue": "Jawaharlal Nehru Stadium, New Delhi, India",
+      "role": "Member of Local Organising Committee (LOC)",
+      "tier": "World Para Athletics International Event",
+      "responsibilities": [
+        "Overall coordination and execution of event logistics and athlete operations.",
+        "Collaborating with technical delegates, anti-doping officials, and international teams.",
+        "Ensuring seamless barrier-free transit and venue accessibility."
+      ],
+      "tags": [
+        "loc-member",
+        "grand-prix-2026",
+        "world-para-athletics",
+        "new-delhi",
+        "international"
+      ]
+    },
+    {
+      "id": "exp-002",
+      "title": "New Delhi 2025 World Para Athletics Championships 2025",
+      "dates": "27th September to 5th October 2025",
+      "venue": "Jawaharlal Nehru Stadium, New Delhi, India",
+      "role": "Chairman of Transportation Committee of Local Organising Committee (LOC)",
+      "tier": "Flagship World Championship",
+      "responsibilities": [
+        "Commanded the entire fleet and transportation department for hundreds of international para-athletes, team delegations, IPC dignitaries, and technical officials.",
+        "Designed and executed 24/7 accessible airport arrival/departure transfers, hotel-to-stadium scheduled shuttle networks, and dedicated rapid-response accessible transport.",
+        "Managed accessible buses, hydraulic ramps, specialized wheelchair-locking protocols, and driver sensitization training across the National Capital Region."
+      ],
+      "tags": [
+        "transportation-chairman",
+        "world-championships-2025",
+        "fleet-management",
+        "leadership",
+        "loc-head"
+      ]
+    },
+    {
+      "id": "exp-003",
+      "title": "New Delhi 2025 World Para Athletics Grand Prix",
+      "dates": "8th to 13th March 2025",
+      "venue": "Jawaharlal Nehru Stadium, New Delhi, India",
+      "role": "Member of Local Organising Committee (LOC)",
+      "tier": "World Para Athletics International Event",
+      "responsibilities": [
+        "Supported multi-functional event management streams including transportation, protocol, and athlete village integration."
+      ],
+      "tags": [
+        "loc-member",
+        "grand-prix-2025",
+        "world-para-athletics",
+        "new-delhi"
+      ]
+    },
+    {
+      "id": "exp-004",
+      "title": "New Delhi 2024 WSPS Para Shooting World Cup",
+      "dates": "6th to 15th March 2024",
+      "venue": "Dr. Karni Singh Shooting Range, New Delhi, India",
+      "role": "Member of Local Organising Committee (LOC)",
+      "tier": "World Shooting Para Sport (WSPS) Global World Cup",
+      "responsibilities": [
+        "Managed specialized transit for international shooters with severe physical impairments, firearms transport logistics under strict security clearances, and accessible equipment movement."
+      ],
+      "tags": [
+        "loc-member",
+        "para-shooting-world-cup",
+        "wsps",
+        "karni-singh-range"
+      ]
+    },
+    {
+      "id": "exp-005",
+      "title": "Bahrain 2021 Asian Youth Para Games",
+      "dates": "2nd to 6th December 2021",
+      "venue": "Manama, Kingdom of Bahrain",
+      "role": "Deputy Chef de Mission of the Indian Team",
+      "tier": "Asian Paralympic Committee Continental Games",
+      "responsibilities": [
+        "Served as the operational second-in-command of the entire Indian national youth contingent.",
+        "Liaised with the Asian Paralympic Committee (APC) and local organizing committee on delegation registration, medical/classification scheduling, athlete welfare, and dispute resolution.",
+        "Mentored emerging Indian youth para-athletes across sports to achieve medal-winning performances on foreign soil."
+      ],
+      "tags": [
+        "deputy-chef-de-mission",
+        "asian-youth-para-games-2021",
+        "bahrain",
+        "national-team-leadership"
+      ]
+    },
+    {
+      "id": "exp-006",
+      "title": "Hangzhou 2022 Asian Para Games",
+      "dates": "22nd to 28th October 2023",
+      "venue": "Hangzhou, Zhejiang, China",
+      "role": "Part of India Team / Official Delegation",
+      "tier": "Continental Quadrennial Multisport Games",
+      "responsibilities": [
+        "Supported operational coordination, athlete village management, and technical logistics during India's most successful Asian Para Games campaign in history."
+      ],
+      "tags": [
+        "india-team",
+        "hangzhou-2022",
+        "asian-para-games",
+        "china",
+        "multisport"
+      ]
+    },
+    {
+      "id": "exp-007",
+      "title": "24th National Para Athletics Championship 2025\u201326",
+      "dates": "17th to 21st March 2026",
+      "venue": "Kalinga Stadium, Bhubaneswar, Odisha, India",
+      "role": "Member of Local Organising Committee (LOC)",
+      "tier": "National Championship",
+      "responsibilities": [
+        "Overseeing state contingent transit, stadium accessibility, and competition scheduling."
+      ],
+      "tags": [
+        "loc-member",
+        "national-championship",
+        "odisha",
+        "bhubaneswar",
+        "para-athletics"
+      ]
+    },
+    {
+      "id": "exp-008",
+      "title": "23rd National Para Athletics Championship 2025",
+      "dates": "17th to 20th February 2025",
+      "venue": "Jawaharlal Nehru Stadium, Chennai, Tamil Nadu, India",
+      "role": "Member of Local Organising Committee (LOC)",
+      "tier": "National Championship",
+      "responsibilities": [
+        "Transport and logistics coordinator for Southern zone athletes and regional stakeholders."
+      ],
+      "tags": [
+        "loc-member",
+        "national-championship",
+        "chennai",
+        "para-athletics"
+      ]
+    },
+    {
+      "id": "exp-009",
+      "title": "22nd National Para Athletics Championship 2024",
+      "dates": "10th to 13th January 2024",
+      "venue": "GMC Athletic Stadium, Bambolim, Goa, India",
+      "role": "Member of Local Organizing Committee (LOC)",
+      "tier": "National Championship",
+      "responsibilities": [
+        "Airport and rail terminal transport integration, athlete housing accessibility, and field-of-play coordination."
+      ],
+      "tags": [
+        "loc-member",
+        "national-championship",
+        "goa",
+        "para-athletics"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+/*
+Theme Name: Neeraj
+Template: astra
+Author: Moshi Moshi
+Description: Neeraj's passion for athletics took root when he first held a javelin in his hands during From that moment on, Neeraj knew that he had found his calling.
+Tags: Neeraj's passion for athletics took root when he first held a javelin in his hands during From that moment on, Neeraj knew that he had found his calling.
+Version: 4.7.2.1719899564
+Updated: 2024-07-02 05:52:44
+
+*/
+
+body .e-loop-item-4485.post-4485 .date .elementor-heading-title{
+	color: #0E003E !important;
+/* 	font-size: 14px !important; */
+}
+body .e-loop-item-4485.post-4485 .date .elementor-heading-title::first-line{
+/* 	font-size: 14px !important; */
+}
