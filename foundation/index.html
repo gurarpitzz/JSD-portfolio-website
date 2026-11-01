@@ -174,157 +174,729 @@ gtag("config", "GT-TBV9X3C7");
 <link href="/wp-content/uploads/2024/06/neeraj-favicon.png" rel="apple-touch-icon"/>
 <meta content="/wp-content/uploads/2024/06/neeraj-favicon.png" name="msapplication-TileImage"/>
 </meta></link></meta></meta>
-<style id="jsd-foundation-qa-polish">
-  html, body,
-  .site, .site-content,
-  .elementor-343,
-  .elementor-574,
-  .elementor-343 .elementor-element.elementor-element-9937177,
-  .elementor-343 .elementor-element.elementor-element-a96aa25,
-  .elementor-343 .elementor-element.elementor-element-8f2d3de,
-  .elementor-343 .elementor-element.elementor-element-7273946,
-  .elementor-343 .elementor-element.elementor-element-ec37bc0,
-  .elementor-343 .elementor-element.elementor-element-c1f90ef,
-  .elementor-574 .elementor-element.elementor-element-8f2d3de,
-  .elementor-574 .elementor-element.elementor-element-7273946,
-  .elementor-574 .elementor-element.elementor-element-ec37bc0,
-  .elementor-574 .elementor-element.elementor-element-c1f90ef,
-  #foundation-slide-1 .elementor-element-8f2d3de,
-  #foundation-slide-2 .elementor-element-7273946,
-  #foundation-slide-3 .elementor-element-ec37bc0,
-  #foundation-slide-4 .elementor-element-c1f90ef,
-  .premium-hscroll-temp,
-  .premium-hscroll-bg-layer {
-    background: linear-gradient(180deg, rgba(9, 9, 11, 0.88) 0%, rgba(9, 9, 11, 0.95) 100%), url('/wp-content/uploads/2024/08/neeraj_bnr.webp') center/cover no-repeat fixed !important;
-    background-color: #09090b !important;
+<style id="jsd-foundation-editorial-styles">
+/* ==========================================================================
+   JSD FOUNDATION & ASSISTIVE INNOVATION — EDITORIAL DESIGN SYSTEM
+   Authoritative high-contrast, responsive, accessible luxury layout
+   ========================================================================== */
+
+:root {
+  --jsd-bg-dark: #09090b;
+  --jsd-bg-card: rgba(18, 18, 24, 0.88);
+  --jsd-bg-card-hover: rgba(28, 28, 38, 0.94);
+  --jsd-amber: #D98236;
+  --jsd-amber-glow: rgba(217, 130, 54, 0.32);
+  --jsd-amber-light: #F4A261;
+  --jsd-text-primary: #FFFFFF;
+  --jsd-text-secondary: #E2E8F0;
+  --jsd-text-muted: #94A3B8;
+  --jsd-border-subtle: rgba(255, 255, 255, 0.12);
+  --jsd-border-amber: rgba(217, 130, 54, 0.42);
+  --jsd-radius-sm: 8px;
+  --jsd-radius-md: 14px;
+  --jsd-radius-lg: 20px;
+}
+
+/* Page Canvas */
+body.page-id-343,
+.elementor-343,
+.site,
+.site-content {
+  background-color: var(--jsd-bg-dark) !important;
+  background-image: radial-gradient(circle at 50% 0%, rgba(30, 24, 20, 0.6) 0%, rgba(9, 9, 11, 0.95) 70%) !important;
+  color: var(--jsd-text-secondary) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  overflow-x: hidden !important;
+}
+
+/* Neutralize legacy broken horizontal scroll & void wrappers */
+.elementor-343 .elementor-element-9937177,
+.elementor-343 .premium-hscroll-outer-wrap,
+.elementor-343 .premium-hscroll-wrap,
+.elementor-343 .premium-hscroll-slider,
+.elementor-343 .premium-hscroll-spacer,
+.elementor-343 .premium-hscroll-scroller-wrap,
+.elementor-343 .premium-hscroll-sections-wrap {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  position: static !important;
+  transform: none !important;
+  overflow: visible !important;
+}
+
+.premium-hscroll-arrow,
+.premium-hscroll-nav,
+.premium-hscroll-progress,
+.premium-hscroll-spacer,
+.premium-hscroll-bg-layer,
+.premium-hscroll-temp,
+.elementor-343 img[src*="red-drop"],
+.elementor-343 img[src*="blue-drop"],
+.elementor-343 .elementor-element-a1db116,
+.elementor-343 .elementor-element-a8cfba9,
+.elementor-343 .elementor-element-68ee59e,
+.elementor-343 .elementor-element-d568653,
+.elementor-343 .elementor-element-d2d8695,
+.elementor-343 .elementor-element-3d03b42 {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Unified Foundation Suite Container */
+.jsd-foundation-suite {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 80px 24px 100px;
+  position: relative;
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+/* --- Section 1: Monumental Hero --- */
+.jsd-fdn-hero {
+  text-align: center;
+  padding: 40px 0 55px;
+  position: relative;
+}
+
+.jsd-fdn-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 20px;
+  background: rgba(217, 130, 54, 0.12);
+  border: 1px solid var(--jsd-border-amber);
+  border-radius: 999px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--jsd-amber-light);
+  margin-bottom: 22px;
+  box-shadow: 0 0 20px rgba(217, 130, 54, 0.15);
+}
+
+.jsd-fdn-kicker::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--jsd-amber);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--jsd-amber);
+}
+
+.jsd-fdn-title {
+  font-family: 'Koulen', 'Oswald', -apple-system, sans-serif !important;
+  font-size: clamp(2.8rem, 6.5vw, 5.2rem) !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.04em !important;
+  line-height: 1.05 !important;
+  text-transform: uppercase !important;
+  color: #FFFFFF !important;
+  margin: 0 0 22px !important;
+  text-shadow: 0 4px 30px rgba(0, 0, 0, 0.95), 0 0 50px rgba(217, 130, 54, 0.16) !important;
+}
+
+.jsd-fdn-subtitle {
+  font-size: clamp(1.05rem, 1.8vw, 1.25rem);
+  line-height: 1.65;
+  color: var(--jsd-text-secondary);
+  max-width: 880px;
+  margin: 0 auto 36px;
+  font-weight: 400;
+}
+
+.jsd-fdn-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.jsd-btn-amber {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  background: linear-gradient(135deg, #D98236 0%, #C46F25 100%) !important;
+  color: #09090b !important;
+  font-family: 'Koulen', sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  border-radius: var(--jsd-radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.4) !important;
+  box-shadow: 0 10px 30px rgba(217, 130, 54, 0.35);
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.jsd-btn-amber:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #E59047 0%, #D98236 100%) !important;
+  box-shadow: 0 14px 38px rgba(217, 130, 54, 0.5);
+  color: #000000 !important;
+}
+
+.jsd-btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: rgba(255, 255, 255, 0.06) !important;
+  color: #FFFFFF !important;
+  font-family: 'Koulen', sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  border-radius: var(--jsd-radius-sm);
+  border: 1px solid var(--jsd-border-subtle) !important;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  transition: all 0.28s ease;
+}
+
+.jsd-btn-ghost:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.14) !important;
+  border-color: rgba(255, 255, 255, 0.45) !important;
+  color: #FFFFFF !important;
+}
+
+/* --- Section 2: Genesis & Ramp Innovation (Editorial Cards) --- */
+.jsd-fdn-genesis {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+.jsd-card-pillar {
+  background: var(--jsd-bg-card);
+  border: 1px solid var(--jsd-border-subtle);
+  border-radius: var(--jsd-radius-md);
+  padding: 38px 34px;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.55);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  backdrop-filter: blur(16px);
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.jsd-card-pillar:hover {
+  border-color: var(--jsd-border-amber);
+  transform: translateY(-3px);
+}
+
+.jsd-pillar-eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--jsd-amber);
+  margin-bottom: 10px;
+}
+
+.jsd-pillar-heading {
+  font-family: 'Koulen', -apple-system, sans-serif !important;
+  font-size: clamp(1.8rem, 2.6vw, 2.3rem) !important;
+  font-weight: 700 !important;
+  color: #FFFFFF !important;
+  line-height: 1.15 !important;
+  margin: 0 0 16px !important;
+  letter-spacing: 0.03em !important;
+}
+
+.jsd-pillar-body {
+  font-size: 15.5px;
+  line-height: 1.72;
+  color: var(--jsd-text-secondary);
+  margin: 0 0 24px;
+}
+
+.jsd-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.jsd-badge-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--jsd-text-muted);
+}
+
+.jsd-badge-chip.highlight {
+  background: rgba(217, 130, 54, 0.14);
+  border-color: rgba(217, 130, 54, 0.4);
+  color: var(--jsd-amber-light);
+}
+
+/* Photo Gallery Strip */
+.jsd-gallery-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-bottom: 75px;
+}
+
+.jsd-gallery-card {
+  position: relative;
+  background: var(--jsd-bg-card);
+  border: 1px solid var(--jsd-border-subtle);
+  border-radius: var(--jsd-radius-md);
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.jsd-gallery-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--jsd-border-amber);
+}
+
+.jsd-gallery-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.jsd-gallery-card:hover img {
+  transform: scale(1.03);
+}
+
+.jsd-gallery-caption {
+  padding: 14px 18px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--jsd-text-secondary);
+  background: rgba(14, 14, 18, 0.95);
+  border-top: 1px solid var(--jsd-border-subtle);
+  font-weight: 400;
+}
+
+.jsd-gallery-caption strong {
+  color: #FFFFFF;
+}
+
+/* --- Section 3: Vision 2026–28 (6 Strategic Pillars) --- */
+.jsd-fdn-vision {
+  margin-bottom: 85px;
+  padding: 50px 40px;
+  background: linear-gradient(180deg, rgba(22, 22, 30, 0.75) 0%, rgba(14, 14, 18, 0.95) 100%);
+  border: 1px solid var(--jsd-border-subtle);
+  border-radius: var(--jsd-radius-lg);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.65);
+}
+
+.jsd-vision-header {
+  text-align: center;
+  max-width: 820px;
+  margin: 0 auto 40px;
+}
+
+.jsd-vision-header h2 {
+  font-family: 'Koulen', -apple-system, sans-serif !important;
+  font-size: clamp(2.2rem, 4vw, 3.4rem) !important;
+  color: #FFFFFF !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+  margin: 0 0 12px !important;
+}
+
+.jsd-vision-header p {
+  font-size: 16px;
+  color: var(--jsd-text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.jsd-pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.jsd-pillar-box {
+  background: rgba(24, 24, 32, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--jsd-radius-md);
+  padding: 28px 24px;
+  position: relative;
+  transition: all 0.28s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.jsd-pillar-box:hover {
+  border-color: var(--jsd-amber);
+  background: rgba(32, 32, 44, 0.95);
+  transform: translateY(-3px);
+  box-shadow: 0 14px 32px rgba(217, 130, 54, 0.16);
+}
+
+.jsd-pillar-num {
+  font-family: 'Koulen', sans-serif;
+  font-size: 34px;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--jsd-amber);
+  margin-bottom: 12px;
+  letter-spacing: 0.04em;
+}
+
+.jsd-pillar-title {
+  font-size: 17.5px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0 0 10px;
+  line-height: 1.35;
+}
+
+.jsd-pillar-desc {
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--jsd-text-secondary);
+  margin: 0;
+  flex-grow: 1;
+}
+
+/* --- Section 4: Interactive Foundation Tabs (4 Pillars) --- */
+.jsd-fdn-tabs-section {
+  margin-bottom: 85px;
+}
+
+.jsd-tabs-nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.jsd-tab-btn {
+  background: rgba(20, 20, 26, 0.92);
+  border: 1px solid var(--jsd-border-subtle);
+  border-radius: var(--jsd-radius-sm);
+  padding: 16px 14px;
+  color: var(--jsd-text-muted);
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.24s ease;
+  font-family: inherit;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.jsd-tab-btn:hover {
+  background: rgba(30, 30, 42, 0.95);
+  color: #FFFFFF;
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.jsd-tab-btn.active {
+  background: linear-gradient(135deg, rgba(217, 130, 54, 0.24) 0%, rgba(217, 130, 54, 0.1) 100%);
+  border-color: var(--jsd-amber);
+  color: #FFFFFF;
+  box-shadow: 0 0 24px rgba(217, 130, 54, 0.22);
+}
+
+.jsd-tab-btn.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--jsd-amber);
+  border-radius: 0 0 var(--jsd-radius-sm) var(--jsd-radius-sm);
+}
+
+.jsd-tab-num {
+  font-size: 11.5px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--jsd-amber);
+  margin-bottom: 5px;
+}
+
+.jsd-tab-label {
+  font-size: 14.5px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: inherit;
+}
+
+.jsd-tab-pane {
+  display: none;
+  background: var(--jsd-bg-card);
+  border: 1px solid var(--jsd-border-subtle);
+  border-radius: var(--jsd-radius-md);
+  padding: 42px;
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(16px);
+  animation: jsdFadeIn 0.3s ease-out;
+}
+
+.jsd-tab-pane.active {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 38px;
+  align-items: center;
+}
+
+@keyframes jsdFadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.jsd-pane-content h3 {
+  font-family: 'Koulen', -apple-system, sans-serif;
+  font-size: clamp(1.8rem, 2.5vw, 2.3rem);
+  color: #FFFFFF;
+  margin: 0 0 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.15;
+}
+
+.jsd-points-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+}
+
+.jsd-points-list li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 16px;
+  font-size: 15px;
+  line-height: 1.68;
+  color: var(--jsd-text-secondary);
+}
+
+.jsd-points-list li::before {
+  content: "✦";
+  position: absolute;
+  left: 0;
+  top: 1px;
+  color: var(--jsd-amber);
+  font-size: 14px;
+}
+
+.jsd-points-list li strong {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.jsd-pane-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.jsd-media-item {
+  border-radius: var(--jsd-radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--jsd-border-subtle);
+  background: #000;
+  position: relative;
+}
+
+.jsd-media-item img {
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.jsd-media-item:hover img {
+  transform: scale(1.05);
+}
+
+.jsd-media-tag {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 6px 10px;
+  background: rgba(9, 9, 11, 0.88);
+  font-size: 11px;
+  color: var(--jsd-text-secondary);
+  font-weight: 600;
+  backdrop-filter: blur(6px);
+  text-align: center;
+}
+
+/* --- Section 5: CSR & Institutional Sponsorship Banner --- */
+.jsd-fdn-csr {
+  background: linear-gradient(135deg, rgba(28, 24, 20, 0.95) 0%, rgba(18, 18, 24, 0.95) 100%);
+  border: 1px solid var(--jsd-border-amber);
+  border-radius: var(--jsd-radius-lg);
+  padding: 50px 44px;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7), 0 0 50px rgba(217, 130, 54, 0.12);
+  position: relative;
+  overflow: hidden;
+}
+
+.jsd-fdn-csr::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(217, 130, 54, 0.08) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.jsd-csr-title {
+  font-family: 'Koulen', -apple-system, sans-serif !important;
+  font-size: clamp(2.2rem, 3.8vw, 3.2rem) !important;
+  color: #FFFFFF !important;
+  margin: 0 0 16px !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+}
+
+.jsd-csr-text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--jsd-text-secondary);
+  max-width: 860px;
+  margin: 0 auto 32px;
+}
+
+/* ==========================================================================
+   RESPONSIVE DESIGN (TABLET & MOBILE)
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .jsd-fdn-genesis {
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
-  .elementor-343 .elementor-element.elementor-element-613ee67::before,
-  .elementor-343 .elementor-element.elementor-element-8f2d3de::before,
-  .elementor-343 .elementor-element.elementor-element-7273946::before,
-  .elementor-343 .elementor-element.elementor-element-ec37bc0::before,
-  .elementor-343 .elementor-element.elementor-element-c1f90ef::before,
-  .elementor-574 .elementor-element.elementor-element-613ee67::before {
-    background-color: rgba(9, 9, 11, 0.85) !important;
-    background-image: none !important;
+  .jsd-pillars-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
-  /* Hide jarring red-drop and blue-drop splash overlays */
-  .elementor-343 .elementor-element-a1db116,
-  .elementor-343 .elementor-element-a8cfba9,
-  .elementor-343 .elementor-element-68ee59e,
-  .elementor-343 .elementor-element-d568653,
-  .elementor-343 .elementor-element-d2d8695,
-  .elementor-574 .elementor-element-a1db116,
-  .elementor-574 .elementor-element-a8cfba9,
-  .elementor-574 .elementor-element-68ee59e,
-  .elementor-343 img[src*="red-drop"],
-  .elementor-343 img[src*="blue-drop"] {
-    display: none !important;
-    opacity: 0 !important;
-    visibility: hidden !important;
-    pointer-events: none !important;
+  .jsd-gallery-strip {
+    grid-template-columns: 1fr 1fr;
   }
-  /* Monumental BSFI & Innovation typography & watermark */
-  .elementor-343 .elementor-element-780e741 .elementor-heading-title,
-  .elementor-343 .elementor-element-74b92e1 .elementor-heading-title,
-  .elementor-574 .elementor-element-780e741 .elementor-heading-title,
-  .elementor-574 .elementor-element-74b92e1 .elementor-heading-title {
-    color: rgba(255, 255, 255, 0.14) !important;
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.22) !important;
+  .jsd-tabs-nav {
+    grid-template-columns: repeat(2, 1fr);
   }
-  .elementor-343 .elementor-heading-title,
-  .elementor-574 .elementor-heading-title {
-    color: #FFFFFF !important;
+  .jsd-tab-pane.active {
+    grid-template-columns: 1fr;
+    gap: 28px;
   }
-  .elementor-343 .elementor-element-bf7f1ab .elementor-heading-title,
-  .elementor-343 .elementor-element-0258402 .elementor-heading-title,
-  .elementor-343 .elementor-element-e49ef47 .elementor-heading-title,
-  .elementor-343 .elementor-element-a8a0a1b .elementor-heading-title {
-    color: #FFFFFF !important;
-    letter-spacing: 0.04em !important;
+  .jsd-pane-media {
+    grid-template-columns: 1fr 1fr;
   }
-  .elementor-343 .elementor-element.elementor-element-0ef03ee p,
-  .elementor-343 .elementor-element.elementor-element-a859e0d p,
-  .elementor-343 .elementor-widget-text-editor p,
-  .elementor-343 .elementor-image-box-description {
-    color: #E2E8F0 !important;
-    font-weight: 400 !important;
-    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.65) !important;
+}
+
+@media (max-width: 680px) {
+  .jsd-foundation-suite {
+    padding: 80px 16px 80px;
   }
-  /* Vision & Tab Cards in Dark Obsidian Glassmorphism */
-  .elementor-343 .elementor-element-613ee67,
-  .elementor-343 .elementor-element-53923d8,
-  .elementor-343 .elementor-element-6350039,
-  .elementor-343 .elementor-element-c1d004b,
-  .elementor-343 .elementor-element-05235e5,
-  .elementor-343 .e-n-tabs-content > .e-con {
-    background: rgba(18, 18, 22, 0.86) !important;
-    border: 1px solid rgba(255, 255, 255, 0.12) !important;
-    border-radius: 8px !important;
-    backdrop-filter: blur(12px) !important;
+  .jsd-fdn-hero {
+    padding: 24px 0 35px;
   }
-  .elementor-343 .e-n-tab-title {
-    background: rgba(255, 255, 255, 0.04) !important;
-    border: 1px solid rgba(255, 255, 255, 0.12) !important;
-    color: #CBD5E1 !important;
+  .jsd-fdn-kicker {
+    font-size: 11px !important;
+    padding: 6px 14px !important;
+    letter-spacing: 0.1em !important;
+    max-width: 92% !important;
+    box-sizing: border-box !important;
+    white-space: normal !important;
+    text-align: center !important;
+    line-height: 1.4 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: inline-flex !important;
   }
-  .elementor-343 .e-n-tab-title[aria-selected="true"],
-  .elementor-343 .e-n-tab-title:hover {
-    background: rgba(255, 255, 255, 0.12) !important;
-    border-color: #FFFFFF !important;
-    color: #FFFFFF !important;
+  .jsd-fdn-title {
+    font-size: 2.5rem !important;
+    word-break: break-word !important;
   }
-  .elementor-343 .e-n-tab-title-text {
-    color: inherit !important;
+  .jsd-fdn-subtitle {
+    font-size: 14px;
+    margin-bottom: 24px;
+    padding: 0 4px;
   }
-  /* Luxury Monochrome CTA Buttons */
-  .jsd-bsfi-cta-wrap a.jsd-btn-primary,
-  .elementor-343 .jsd-bsfi-cta-wrap a:first-child {
-    display: inline-block !important;
-    padding: 12px 28px !important;
-    background: #FFFFFF !important;
-    color: #09090b !important;
-    font-family: 'Koulen', sans-serif !important;
-    font-size: 17px !important;
-    font-weight: 600 !important;
-    letter-spacing: 0.08em !important;
-    text-transform: uppercase !important;
-    text-decoration: none !important;
-    border-radius: 4px !important;
-    border: 1px solid #FFFFFF !important;
-    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45) !important;
-    transition: all 0.25s ease !important;
+  .jsd-fdn-actions {
+    flex-direction: column;
+    width: 100%;
   }
-  .jsd-bsfi-cta-wrap a.jsd-btn-primary:hover,
-  .elementor-343 .jsd-bsfi-cta-wrap a:first-child:hover {
-    background: #E2E8F0 !important;
-    color: #09090b !important;
-    transform: translateY(-1px) !important;
+  .jsd-btn-amber,
+  .jsd-btn-ghost {
+    width: 100%;
+    justify-content: center;
   }
-  .jsd-bsfi-cta-wrap a.jsd-btn-secondary,
-  .elementor-343 .jsd-bsfi-cta-wrap a:last-child,
-  .elementor-343 a[href*="PCI_Official_Letter"] {
-    display: inline-block !important;
-    padding: 12px 24px !important;
-    background: rgba(255, 255, 255, 0.06) !important;
-    color: #FFFFFF !important;
-    font-family: 'Koulen', sans-serif !important;
-    font-size: 17px !important;
-    letter-spacing: 0.08em !important;
-    text-transform: uppercase !important;
-    text-decoration: none !important;
-    border-radius: 4px !important;
-    border: 1px solid rgba(255, 255, 255, 0.28) !important;
-    backdrop-filter: blur(8px) !important;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
-    transition: all 0.25s ease !important;
+  .jsd-card-pillar {
+    padding: 28px 20px;
   }
-  .jsd-bsfi-cta-wrap a.jsd-btn-secondary:hover,
-  .elementor-343 .jsd-bsfi-cta-wrap a:last-child:hover,
-  .elementor-343 a[href*="PCI_Official_Letter"]:hover {
-    background: rgba(255, 255, 255, 0.14) !important;
-    border-color: #FFFFFF !important;
-    color: #FFFFFF !important;
+  .jsd-gallery-strip {
+    grid-template-columns: 1fr;
   }
+  .jsd-fdn-vision {
+    padding: 34px 20px;
+  }
+  .jsd-pillars-grid {
+    grid-template-columns: 1fr;
+  }
+  .jsd-tabs-nav {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .jsd-tab-pane {
+    padding: 24px 18px;
+  }
+  .jsd-pane-media {
+    grid-template-columns: 1fr;
+  }
+  .jsd-media-item img {
+    height: 190px;
+  }
+  .jsd-fdn-csr {
+    padding: 36px 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .jsd-btn-amber,
+  .jsd-btn-ghost,
+  .jsd-card-pillar,
+  .jsd-gallery-card,
+  .jsd-pillar-box,
+  .jsd-tab-btn,
+  .jsd-tab-pane {
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
+  }
+}
 </style>
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -430,584 +1002,345 @@ gtag("config", "GT-TBV9X3C7");
 </header> <!-- .entry-header -->
 <div class="entry-content clear" itemprop="text">
 <div class="elementor elementor-343" data-elementor-id="343" data-elementor-post-type="page" data-elementor-type="wp-page">
-<div class="elementor-element elementor-element-9937177 e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-parent e-lazyloaded" data-e-type="container" data-element_type="container" data-id="9937177" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-1ff6d93 premium-hscroll-force-true elementor-widget elementor-widget-premium-hscroll" data-e-type="widget" data-element_type="widget" data-id="1ff6d93" data-settings='{"section_repeater":[{"_id":"77b7904","section_id":"foundation-slide-1","scroll_bg_transition":"yes","template_type":"id","live_temp_content":null,"section_template":null,"anchor_id":null,"scroll_bg_color":null,"scroll_bg_color_b":null,"scroll_bg_image":null,"scroll_bg_video_link":null,"scroll_bg_video_start":null,"scroll_bg_video_end":null,"scroll_bg_play_once":null,"scroll_bg_play_on_mobile":null,"scroll_bg_privacy_mode":null,"scroll_bg_slideshow_gallery":null,"scroll_bg_slideshow_loop":null,"scroll_bg_slideshow_slide_duration":null,"scroll_bg_slideshow_slide_transition":null,"scroll_bg_slideshow_transition_duration":null,"scroll_bg_slideshow_lazyload":null,"scroll_bg_slideshow_ken_burns":null,"scroll_bg_slideshow_ken_burns_zoom_direction":null,"hide_section":""},{"section_id":"foundation-slide-2","scroll_bg_transition":"yes","_id":"badebfd","template_type":"id","live_temp_content":null,"section_template":null,"anchor_id":null,"scroll_bg_color":null,"scroll_bg_color_b":null,"scroll_bg_image":null,"scroll_bg_video_link":null,"scroll_bg_video_start":null,"scroll_bg_video_end":null,"scroll_bg_play_once":null,"scroll_bg_play_on_mobile":null,"scroll_bg_privacy_mode":null,"scroll_bg_slideshow_gallery":null,"scroll_bg_slideshow_loop":null,"scroll_bg_slideshow_slide_duration":null,"scroll_bg_slideshow_slide_transition":null,"scroll_bg_slideshow_transition_duration":null,"scroll_bg_slideshow_lazyload":null,"scroll_bg_slideshow_ken_burns":null,"scroll_bg_slideshow_ken_burns_zoom_direction":null,"hide_section":""},{"section_id":"foundation-slide-3","scroll_bg_transition":"yes","_id":"83afa5c","template_type":"id","live_temp_content":null,"section_template":null,"anchor_id":null,"scroll_bg_color":null,"scroll_bg_color_b":null,"scroll_bg_image":null,"scroll_bg_video_link":null,"scroll_bg_video_start":null,"scroll_bg_video_end":null,"scroll_bg_play_once":null,"scroll_bg_play_on_mobile":null,"scroll_bg_privacy_mode":null,"scroll_bg_slideshow_gallery":null,"scroll_bg_slideshow_loop":null,"scroll_bg_slideshow_slide_duration":null,"scroll_bg_slideshow_slide_transition":null,"scroll_bg_slideshow_transition_duration":null,"scroll_bg_slideshow_lazyload":null,"scroll_bg_slideshow_ken_burns":null,"scroll_bg_slideshow_ken_burns_zoom_direction":null,"hide_section":""},{"section_id":"foundation-slide-4","scroll_bg_transition":"yes","_id":"67aeb0d","template_type":"id","live_temp_content":null,"section_template":null,"anchor_id":null,"scroll_bg_color":null,"scroll_bg_color_b":null,"scroll_bg_image":null,"scroll_bg_video_link":null,"scroll_bg_video_start":null,"scroll_bg_video_end":null,"scroll_bg_play_once":null,"scroll_bg_play_on_mobile":null,"scroll_bg_privacy_mode":null,"scroll_bg_slideshow_gallery":null,"scroll_bg_slideshow_loop":null,"scroll_bg_slideshow_slide_duration":null,"scroll_bg_slideshow_slide_transition":null,"scroll_bg_slideshow_transition_duration":null,"scroll_bg_slideshow_lazyload":null,"scroll_bg_slideshow_ken_burns":null,"scroll_bg_slideshow_ken_burns_zoom_direction":null,"hide_section":""}],"slides":{"unit":"px","size":1,"sizes":[]},"slides_tablet":{"unit":"px","size":0.5,"sizes":[]},"slides_mobile":{"unit":"px","size":0.5,"sizes":[]},"distance":{"unit":"px","size":0,"sizes":[]},"distance_tablet":{"unit":"px","size":"","sizes":[]},"distance_mobile":{"unit":"px","size":"","sizes":[]},"trigger_offset":{"unit":"px","size":0,"sizes":[]},"trigger_offset_tablet":{"unit":"px","size":"","sizes":[]},"trigger_offset_mobile":{"unit":"px","size":"","sizes":[]},"scroll_effect":"normal","scroll_speed":1,"disable_on":[]}' data-widget_type="premium-hscroll.default">
-<div class="elementor-widget-container">
-<div class="premium-hscroll-outer-wrap">
-<div class="premium-hscroll-spacer" id="premium-hscroll-spacer-1ff6d93"></div>
-<div class="premium-hscroll-wrap premium-hscroll-arrows-hidden premium-hscroll-dots-hidden" data-settings='{"id":"1ff6d93","opacity":1,"keyboard":"true","pagination":0,"arrows":false,"dots":false,"disableSnap":0}' id="premium-hscroll-wrap-1ff6d93">
-<div class="premium-hscroll-bg-layer elementor-repeater-item-77b7904 premium-hscroll-layer-active" data-layer="0"></div>
-<div class="premium-hscroll-bg-layer elementor-repeater-item-badebfd" data-layer="1"></div>
-<div class="premium-hscroll-bg-layer elementor-repeater-item-83afa5c" data-layer="2"></div>
-<div class="premium-hscroll-bg-layer elementor-repeater-item-67aeb0d" data-layer="3"></div>
-<div class="premium-hscroll-arrow premium-hscroll-arrow-left">
-<div class="premium-hscroll-wrap-icon">
-</div>
-</div>
-<div class="premium-hscroll-slider">
-<div class="premium-hscroll-scroller-wrap" data-progress="bottom" id="premium-hscroll-scroller-wrap-1ff6d93">
-<div class="premium-hscroll-sections-wrap premium-addons__v-hidden" data-scroll-opacity="1">
-<div class="premium-hscroll-temp" data-hide="" data-section="foundation-slide-1" id="section_1ff6d930">
-</div>
-<div class="premium-hscroll-temp premium-hscroll-hide" data-hide="" data-section="foundation-slide-2" id="section_1ff6d931">
-</div>
-<div class="premium-hscroll-temp premium-hscroll-hide" data-hide="" data-section="foundation-slide-3" id="section_1ff6d932">
-</div>
-<div class="premium-hscroll-temp premium-hscroll-hide" data-hide="" data-section="foundation-slide-4" id="section_1ff6d933">
-</div>
-</div>
-<div class="premium-hscroll-progress premium-hscroll-progress-hidden">
-<div class="premium-hscroll-progress-line" id="premium-hscroll-progress-line-1ff6d93"></div>
-</div>
-</div>
-</div>
-<div class="premium-hscroll-arrow premium-hscroll-arrow-right">
-<div class="premium-hscroll-wrap-icon">
-</div>
-</div>
-<div class="premium-hscroll-nav">
-<ul class="premium-hscroll-nav-list dots">
-<li class="premium-hscroll-nav-item" data-slide="section_1ff6d930">
-<span class="premium-hscroll-nav-dot"></span>
-</li>
-<li class="premium-hscroll-nav-item" data-slide="section_1ff6d931">
-<span class="premium-hscroll-nav-dot"></span>
-</li>
-<li class="premium-hscroll-nav-item" data-slide="section_1ff6d932">
-<span class="premium-hscroll-nav-dot"></span>
-</li>
-<li class="premium-hscroll-nav-item" data-slide="section_1ff6d933">
-<span class="premium-hscroll-nav-dot"></span>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-8f2d3de e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-parent e-lazyloaded" data-e-type="container" data-element_type="container" data-id="8f2d3de" data-settings='{"background_background":"classic"}' id="foundation-slide-1">
-<div class="elementor-element elementor-element-a1db116 elementor-absolute elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="a1db116" data-settings='{"_position":"absolute"}' data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1399" decoding="async" fetchpriority="high" height="1947" sizes="(max-width: 1947px) 100vw, 1947px" src="/wp-content/uploads/2024/07/red-drop.png" srcset="/wp-content/uploads/2024/07/red-drop.png 1947w, /wp-content/uploads/2024/07/red-drop-300x300.png 300w, /wp-content/uploads/2024/07/red-drop-1024x1024.png 1024w, /wp-content/uploads/2024/07/red-drop-150x150.png 150w, /wp-content/uploads/2024/07/red-drop-768x768.png 768w, /wp-content/uploads/2024/07/red-drop-1536x1536.png 1536w" width="1947"/ loading="lazy"> </div>
-</div>
-<div class="elementor-element elementor-element-a8cfba9 elementor-absolute elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="a8cfba9" data-settings='{"_position":"absolute"}' data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1398" decoding="async" height="1491" sizes="(max-width: 1491px) 100vw, 1491px" src="/wp-content/uploads/2024/07/blue-drop.png" srcset="/wp-content/uploads/2024/07/blue-drop.png 1491w, /wp-content/uploads/2024/07/blue-drop-300x300.png 300w, /wp-content/uploads/2024/07/blue-drop-1024x1024.png 1024w, /wp-content/uploads/2024/07/blue-drop-150x150.png 150w, /wp-content/uploads/2024/07/blue-drop-768x768.png 768w" width="1491"/ loading="lazy"> </div>
-</div>
-<div class="elementor-element elementor-element-7a4864d e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="7a4864d">
-<div class="elementor-element elementor-element-bf7f1ab elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="bf7f1ab" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">BSFI &amp; Innovation</h2> </div>
-</div>
-<div class="elementor-element elementor-element-8916983 elementor-widget elementor-widget-razorpay_button" data-e-type="widget" data-element_type="widget" data-id="8916983" data-widget_type="razorpay_button.default">
-<div class="elementor-widget-container">
-<div class="jsd-bsfi-cta-wrap" style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:8px 0;">
-<a class="jsd-btn-primary" href="mailto:president@bocciaindia.com?subject=BSFI%20Partnership%20%26%20Indigenous%20BC3%20Ramp%20Initiative" style="display:inline-block;padding:12px 28px;background:#FFFFFF;color:#09090b;font-family:'Koulen',sans-serif;font-size:17px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border-radius:4px;border:1px solid #FFFFFF;">Partner With BSFI →</a>
-<a class="jsd-btn-secondary" href="/assets/documents/PCI_Official_Letter_Jaspreet_Singh.pdf" rel="noopener" style="display:inline-block;padding:12px 24px;background:rgba(255,255,255,0.06);color:#FFFFFF;font-family:'Koulen',sans-serif;font-size:17px;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border-radius:4px;border:1px solid rgba(255,255,255,0.28);backdrop-filter:blur(8px);" target="_blank">Official PCI Credential (PDF)</a>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-b45db42 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="b45db42">
-<div class="elementor-element elementor-element-070d097 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="070d097">
-<div class="elementor-element elementor-element-95dd20e elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="95dd20e" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Founded by Jaspreet Singh Dhaliwal in 2016 as the Para Boccia Sports Welfare Society and recognized globally as the Boccia Sports Federation of India (BSFI), our mission is to bring the Paralympic precision sport of Boccia to every individual in India living with quadriplegia, severe cerebral palsy, muscular dystrophy, and catastrophic spinal cord trauma. Starting from zero domestic awareness and zero equipment, BSFI has built an all-India federation across 20+ states, affiliated with World Boccia (BISFed), the Paralympic Committee of India (PCI), MYAS, SAI, and NADA.</p> </div>
-</div>
-<div class="elementor-element elementor-element-59aaaef elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="59aaaef" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1365" decoding="async" height="464" sizes="(max-width: 413px) 100vw, 413px" src="/wp-content/uploads/2024/07/foundation-1.png" srcset="/wp-content/uploads/2024/07/foundation-1.png 413w, /wp-content/uploads/2024/07/foundation-1-267x300.png 267w" width="413"/ loading="lazy"> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-165d8f7 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="165d8f7">
-<div class="elementor-element elementor-element-a378947 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="a378947" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1366" decoding="async" height="292" sizes="(max-width: 527px) 100vw, 527px" src="/wp-content/uploads/2024/07/foundation-2.png" srcset="/wp-content/uploads/2024/07/foundation-2.png 527w, /wp-content/uploads/2024/07/foundation-2-300x166.png 300w" width="527"/ loading="lazy"> </div>
-</div>
-<div class="elementor-element elementor-element-8839a05 elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="8839a05" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>In Paralympic Boccia, BC3 athletes with severe locomotor dysfunction in all four limbs compete using an assistive ramp and a head or mouth pointer. Because imported ramps cost €2,500 to €5,000 (₹2.5–₹5 Lakh INR), BSFI President Jaspreet Singh Dhaliwal spearheaded a landmark tri-partite engineering collaboration with the Indian Council of Medical Research (ICMR) and IIT Madras. Together, they engineered India's first World Boccia-compliant, aeronautical-alloy Indigenous BC3 Assistive Ramp—formally handed over to Indian Army Boccia players at ICMR Headquarters in New Delhi in September 2026 alongside DG ICMR Dr. Rajiv Bahl.</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-382c84a e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="382c84a">
-<div class="elementor-element elementor-element-40e8f23 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="40e8f23" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1368" decoding="async" height="558" sizes="(max-width: 453px) 100vw, 453px" src="/wp-content/uploads/2024/07/foundation-3.png" srcset="/wp-content/uploads/2024/07/foundation-3.png 453w, /wp-content/uploads/2024/07/foundation-3-244x300.png 244w" width="453"/ loading="lazy"> </div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-7273946 e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-parent e-lazyloaded" data-e-type="container" data-element_type="container" data-id="7273946" data-settings='{"background_background":"classic"}' id="foundation-slide-2">
-<div class="elementor-element elementor-element-68ee59e elementor-absolute elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="68ee59e" data-settings='{"_position":"absolute"}' data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1399" decoding="async" fetchpriority="high" height="1947" sizes="(max-width: 1947px) 100vw, 1947px" src="/wp-content/uploads/2024/07/red-drop.png" srcset="/wp-content/uploads/2024/07/red-drop.png 1947w, /wp-content/uploads/2024/07/red-drop-300x300.png 300w, /wp-content/uploads/2024/07/red-drop-1024x1024.png 1024w, /wp-content/uploads/2024/07/red-drop-150x150.png 150w, /wp-content/uploads/2024/07/red-drop-768x768.png 768w, /wp-content/uploads/2024/07/red-drop-1536x1536.png 1536w" width="1947"/ loading="lazy"> </div>
-</div>
-<div class="elementor-element elementor-element-9c4b294 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="9c4b294">
-<div class="elementor-element elementor-element-be0b3d9 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="be0b3d9">
-<div class="elementor-element elementor-element-f039d0c elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="f039d0c" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1368" decoding="async" height="558" sizes="(max-width: 453px) 100vw, 453px" src="/wp-content/uploads/2024/07/foundation-3.png" srcset="/wp-content/uploads/2024/07/foundation-3.png 453w, /wp-content/uploads/2024/07/foundation-3-244x300.png 244w" width="453"/ loading="lazy"> </div>
-</div>
-<div class="elementor-element elementor-element-25ae880 elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="25ae880" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Beyond assistive technology, BSFI organizes annual Sub-Junior, Junior, and Senior National Boccia Championships, the Boccia India Federation Cup, high-performance residential coaching camps at IAMD Solan (Himachal Pradesh), permanent accessible courts such as the ALIMCO Centre Kanpur facility inaugurated for BC3 international medalist Sarita Dwivedi, and Spinal Cord Injury (SCI) Day hospital rehabilitation clinics—transforming severely impaired citizens into world-stage gold medalists in Bahrain, Cairo, Seoul, and Pilsen.</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-bfec565 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="bfec565">
-<div class="elementor-element elementor-element-8aac1eb e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="8aac1eb">
-<div class="elementor-element elementor-element-2ee9578 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="2ee9578" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1410" decoding="async" height="358" sizes="(max-width: 367px) 100vw, 367px" src="/wp-content/uploads/2024/07/foundation-4.jpg" srcset="/wp-content/uploads/2024/07/foundation-4.jpg 367w, /wp-content/uploads/2024/07/foundation-4-300x293.jpg 300w" width="367"/ loading="lazy"> </div>
-</div>
-<div class="elementor-element elementor-element-cd20c8d elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="cd20c8d" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1409" decoding="async" height="358" sizes="(max-width: 596px) 100vw, 596px" src="/wp-content/uploads/2024/07/foundation-5.jpg" srcset="/wp-content/uploads/2024/07/foundation-5.jpg 596w, /wp-content/uploads/2024/07/foundation-5-300x180.jpg 300w" width="596"/ loading="lazy"> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-0dbfc0e e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="0dbfc0e">
-<div class="elementor-element elementor-element-bfbcfb5 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="bfbcfb5" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1408" decoding="async" height="383" sizes="(max-width: 601px) 100vw, 601px" src="/wp-content/uploads/2024/07/foundation-6.jpg" srcset="/wp-content/uploads/2024/07/foundation-6.jpg 601w, /wp-content/uploads/2024/07/foundation-6-300x191.jpg 300w" width="601"/ loading="lazy"> </div>
-</div>
-<div class="elementor-element elementor-element-18b5ed1 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="18b5ed1" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1407" decoding="async" height="386" sizes="(max-width: 364px) 100vw, 364px" src="/wp-content/uploads/2024/07/foundation-7.jpg" srcset="/wp-content/uploads/2024/07/foundation-7.jpg 364w, /wp-content/uploads/2024/07/foundation-7-283x300.jpg 283w" width="364"/ loading="lazy"> </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-ec37bc0 e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-parent e-lazyloaded" data-e-type="container" data-element_type="container" data-id="ec37bc0" data-settings='{"background_background":"classic"}' id="foundation-slide-3">
-<div class="elementor-element elementor-element-d4fffd0 elementor-absolute elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="d4fffd0" data-settings='{"_position":"absolute"}' data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Jaspreet Singh Dhaliwal – Founder &amp; President, Boccia Sports Federation of India (BSFI)" class="attachment-full size-full wp-image-1516" decoding="async" height="1174" sizes="(max-width: 938px) 100vw, 938px" src="/wp-content/uploads/2024/07/foundation-neeraj.png" srcset="/wp-content/uploads/2024/07/foundation-neeraj.png 938w, /wp-content/uploads/2024/07/foundation-neeraj-240x300.png 240w, /wp-content/uploads/2024/07/foundation-neeraj-818x1024.png 818w, /wp-content/uploads/2024/07/foundation-neeraj-768x961.png 768w" width="938"/ loading="lazy"> </div>
-</div>
-<div class="elementor-element elementor-element-2f9435e e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="2f9435e">
-<div class="elementor-element elementor-element-3ed8660 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="3ed8660" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Vision 2026–28</h2> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-b656803 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="b656803">
-<div class="elementor-element elementor-element-8bd7d14 e-grid e-con-full e-con e-child" data-e-type="container" data-element_type="container" data-id="8bd7d14">
-<div class="elementor-element elementor-element-2468396 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="2468396" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-7f0e2a8 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="7f0e2a8" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">01</h2> </div>
-</div>
-<div class="elementor-element elementor-element-5bc701d elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="5bc701d" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Scale nationwide deployment of the ICMR–IIT Madras Indigenous BC3 Assistive Ramp &amp; custom ergonomic head/mouth pointers.</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-14bfd77 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="14bfd77">
-</div>
-<div class="elementor-element elementor-element-cfdac89 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="cfdac89" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-c3ceadd elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="c3ceadd" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">03</h2> </div>
-</div>
-<div class="elementor-element elementor-element-586b9ca elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="586b9ca" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Conduct high-performance SAI residential coaching camps (IAMD Solan &amp; regional centers) for Asian Para Games Aichi-Nagoya.</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-f9ee925 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="f9ee925">
-</div>
-<div class="elementor-element elementor-element-2bb9854 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="2bb9854" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-d81c131 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="d81c131" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">05</h2> </div>
-</div>
-<div class="elementor-element elementor-element-962abac elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="962abac" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Establish dedicated barrier-free Boccia courts at military spinal injury centers, rehabilitation hospitals, and ALIMCO hubs.</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-56da521 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="56da521">
-</div>
-<div class="elementor-element elementor-element-6a1c071 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="6a1c071">
-</div>
-<div class="elementor-element elementor-element-2c15b4e e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="2c15b4e" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-08c1282 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="08c1282" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">02</h2> </div>
-</div>
-<div class="elementor-element elementor-element-55ad8ce elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="55ad8ce" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Expand recognized State Boccia Associations and medical classification hubs across all 28 States and 8 Union Territories.</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-947be85 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="947be85">
-</div>
-<div class="elementor-element elementor-element-8e35cb3 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="8e35cb3" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-703497f elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="703497f" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">04</h2> </div>
-</div>
-<div class="elementor-element elementor-element-4339637 elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="4339637" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Accredit Indian referees, classifiers, and coaches through World Boccia (BISFed) international education seminars.</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-bffffab e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="bffffab">
-</div>
-<div class="elementor-element elementor-element-c5d4e61 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="c5d4e61" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-db2d98d elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="db2d98d" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">06</h2> </div>
-</div>
-<div class="elementor-element elementor-element-869e3d3 elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="869e3d3" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Propel Team India's BC1–BC4 champions to podium triumphs at the 2026 Asian Para Games and Los Angeles 2028 Paralympics.</p> </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-c1f90ef e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-parent e-lazyloaded" data-e-type="container" data-element_type="container" data-id="c1f90ef" data-settings='{"background_background":"classic"}' id="foundation-slide-4">
-<div class="elementor-element elementor-element-33fd7e8 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="33fd7e8" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Empower Para-Champions with Boccia India (BSFI)</h2> </div>
-</div>
-<div class="elementor-element elementor-element-00829cc e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="00829cc">
-<div class="elementor-element elementor-element-0db0a50 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="0db0a50" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Institutional CSR partnerships, assistive equipment sponsorships, and rehabilitation hospital collaborations directly equip India's quadriplegic, cerebral palsy, and muscular dystrophy athletes with indigenous ICMR–IIT Madras BC3 ramps, leather Boccia ball sets, and international tournament exposure across the World Boccia circuit.</p> </div>
-</div>
-<div class="elementor-element elementor-element-a9277fb elementor-widget elementor-widget-razorpay_button" data-e-type="widget" data-element_type="widget" data-id="a9277fb" data-widget_type="razorpay_button.default">
-<div class="elementor-widget-container">
-<div class="jsd-bsfi-cta-wrap" style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:8px 0;">
-<a class="jsd-btn-primary" href="mailto:president@bocciaindia.com?subject=BSFI%20Partnership%20%26%20Indigenous%20BC3%20Ramp%20Initiative" style="display:inline-block;padding:12px 28px;background:#FFFFFF;color:#09090b;font-family:'Koulen',sans-serif;font-size:17px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border-radius:4px;border:1px solid #FFFFFF;">Partner With BSFI →</a>
-<a class="jsd-btn-secondary" href="/assets/documents/PCI_Official_Letter_Jaspreet_Singh.pdf" rel="noopener" style="display:inline-block;padding:12px 24px;background:rgba(255,255,255,0.06);color:#FFFFFF;font-family:'Koulen',sans-serif;font-size:17px;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border-radius:4px;border:1px solid rgba(255,255,255,0.28);backdrop-filter:blur(8px);" target="_blank">Official PCI Credential (PDF)</a>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-29fb16a e-n-tabs-mobile elementor-widget elementor-widget-n-tabs" data-e-type="widget" data-element_type="widget" data-id="29fb16a" data-widget_type="nested-tabs.default">
-<div class="elementor-widget-container">
-<div aria-label="Tabs. Open items with Enter or Space, close with Escape and navigate using the Arrow keys." class="e-n-tabs" data-widget-number="44020074">
-<div class="e-n-tabs-heading" role="tablist">
-<button aria-controls="e-n-tab-content-440200741" aria-selected="true" class="e-n-tab-title" data-tab-index="1" data-tab-title-id="e-n-tab-title-440200741" id="e-n-tab-title-440200741" role="tab" style="--n-tabs-title-order: 1;" tabindex="0">
-<span class="e-n-tab-title-text">Indigenous BC3 Ramp Innovation (ICMR &amp; IIT Madras)</span>
-</button>
-<button aria-controls="e-n-tab-content-440200742" aria-selected="false" class="e-n-tab-title" data-tab-index="2" data-tab-title-id="e-n-tab-title-440200742" id="e-n-tab-title-440200742" role="tab" style="--n-tabs-title-order: 2;" tabindex="-1">
-<span class="e-n-tab-title-text">National Coaching Camps &amp; Rehab Court Infrastructure</span>
-</button>
-<button aria-controls="e-n-tab-content-440200743" aria-selected="false" class="e-n-tab-title" data-tab-index="3" data-tab-title-id="e-n-tab-title-440200743" id="e-n-tab-title-440200743" role="tab" style="--n-tabs-title-order: 3;" tabindex="-1">
-<span class="e-n-tab-title-text">World Boccia Podiums &amp; Hall of Fame Champions</span>
-</button>
-<button aria-controls="e-n-tab-content-440200744" aria-selected="false" class="e-n-tab-title" data-tab-index="4" data-tab-title-id="e-n-tab-title-440200744" id="e-n-tab-title-440200744" role="tab" style="--n-tabs-title-order: 4;" tabindex="-1">
-<span class="e-n-tab-title-text">Global Governance &amp; Armed Forces Synergy</span>
-</button>
-</div>
-<div class="e-n-tabs-content">
-<div aria-labelledby="e-n-tab-title-440200741" class="e-active elementor-element elementor-element-53923d8 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="53923d8" data-settings='{"background_background":"classic"}' data-tab-index="1" id="e-n-tab-content-440200741" role="tabpanel" style="--n-tabs-title-order: 1;">
-<div class="elementor-element elementor-element-b9a6424 e-flex e-con-boxed e-con e-child" data-e-type="container" data-element_type="container" data-id="b9a6424">
-<div class="e-con-inner">
-<div class="elementor-element elementor-element-6535e48 elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="6535e48" data-widget_type="image-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img alt="Boccia Sports Federation of India &amp; ICMR–IIT Madras BC3 Assistive Ramp Emblem" class="attachment-full size-full wp-image-4265" decoding="async" height="50" src="/wp-content/uploads/2025/01/Mask-group-2.png" width="48"/ loading="lazy"></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">Co-engineered by BSFI, ICMR &amp; IIT Madras: ultra-low-friction polymer chute, micro-adjustable elevation, and aeronautical alloy frame compliant with World Boccia Section 11.</p></div></div> </div>
-</div>
-<div class="elementor-element elementor-element-8066edb elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="8066edb" data-widget_type="image-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img alt="Boccia Sports Federation of India &amp; ICMR–IIT Madras BC3 Assistive Ramp Emblem" class="attachment-full size-full wp-image-4265" decoding="async" height="50" src="/wp-content/uploads/2025/01/Mask-group-2.png" width="48"/ loading="lazy"></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">Formally handed over to Indian Army Boccia players at ICMR HQ New Delhi (September 2026) with Secretary DHR &amp; DG ICMR Dr. Rajiv Bahl, Addl. DG Dr. Sanghmitra Pati &amp; Dr. Ravinder Singh.</p></div></div> </div>
-</div>
-</div>
-</div>
-</div>
-<div aria-labelledby="e-n-tab-title-440200742" class="elementor-element elementor-element-6350039 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="6350039" data-settings='{"background_background":"classic"}' data-tab-index="2" id="e-n-tab-content-440200742" role="tabpanel" style="--n-tabs-title-order: 2;">
-<div class="elementor-element elementor-element-ff818b1 e-flex e-con-boxed e-con e-child" data-e-type="container" data-element_type="container" data-id="ff818b1">
-<div class="e-con-inner">
-<div class="elementor-element elementor-element-b36019d elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="b36019d" data-widget_type="image-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img alt="Boccia Sports Federation of India &amp; ICMR–IIT Madras BC3 Assistive Ramp Emblem" class="attachment-full size-full wp-image-4265" decoding="async" height="50" src="/wp-content/uploads/2025/01/Mask-group-2.png" width="48"/ loading="lazy"></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">High-performance National Coaching Camps at IAMD Solan (Himachal Pradesh) backed by MYAS &amp; SAI, integrating sports science, nutrition, and BC3 ramp trajectory analytics.</p></div></div> </div>
-</div>
-<div class="elementor-element elementor-element-978df13 elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="978df13" data-widget_type="image-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img alt="Boccia Sports Federation of India &amp; ICMR–IIT Madras BC3 Assistive Ramp Emblem" class="attachment-full size-full wp-image-4265" decoding="async" height="50" src="/wp-content/uploads/2025/01/Mask-group-2.png" width="48"/ loading="lazy"></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">Dedicated Boccia training court inaugurated at ALIMCO Centre Kanpur in honor of BC3 star Sarita Dwivedi, alongside Spinal Cord Injury (SCI) Day awareness clinics.</p></div></div> </div>
-</div>
-</div>
-</div>
-</div>
-<div aria-labelledby="e-n-tab-title-440200743" class="elementor-element elementor-element-c1d004b e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="c1d004b" data-settings='{"background_background":"classic"}' data-tab-index="3" id="e-n-tab-content-440200743" role="tabpanel" style="--n-tabs-title-order: 3;">
-<div class="elementor-element elementor-element-fe14a54 e-flex e-con-boxed e-con e-child" data-e-type="container" data-element_type="container" data-id="fe14a54">
-<div class="e-con-inner">
-<div class="elementor-element elementor-element-cc95b64 elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="cc95b64" data-widget_type="image-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img alt="Boccia Sports Federation of India &amp; ICMR–IIT Madras BC3 Assistive Ramp Emblem" class="attachment-full size-full wp-image-4265" decoding="async" height="50" src="/wp-content/uploads/2025/01/Mask-group-2.png" width="48"/ loading="lazy"></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">Pilsen 2026 World Boccia Challenger (Czech Republic): Historic 5-Gold Medal Sweep led by BC3 Golden Boy Ajeya Raj, Golden Girl Anjali Thakur, and BC1 Gold Medalist Sandhya Bhumij.</p></div></div> </div>
-</div>
-<div class="elementor-element elementor-element-7954868 elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="7954868" data-widget_type="image-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img alt="Boccia Sports Federation of India &amp; ICMR–IIT Madras BC3 Assistive Ramp Emblem" class="attachment-full size-full wp-image-4265" decoding="async" height="50" src="/wp-content/uploads/2025/01/Mask-group-2.png" width="48"/ loading="lazy"></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">Manama 2024 Bahrain 6-Medal Sweep &amp; Cairo 2026 Unbeaten Opening Sweep: Sachin Chamaria (BC3 Gold), Pooja Gupta (1st Individual Int'l Medalist, BC4 Bronze &amp; Pairs Silver), and Jatin Kushwaha.</p></div></div> </div>
-</div>
-</div>
-</div>
-</div>
-<div aria-labelledby="e-n-tab-title-440200744" class="elementor-element elementor-element-05235e5 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="05235e5" data-settings='{"background_background":"classic"}' data-tab-index="4" id="e-n-tab-content-440200744" role="tabpanel" style="--n-tabs-title-order: 4;">
-<div class="elementor-element elementor-element-41645a5 e-flex e-con-boxed e-con e-child" data-e-type="container" data-element_type="container" data-id="41645a5">
-<div class="e-con-inner">
-<div class="elementor-element elementor-element-85f0c63 elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="85f0c63" data-widget_type="image-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img alt="Boccia Sports Federation of India &amp; ICMR–IIT Madras BC3 Assistive Ramp Emblem" class="attachment-full size-full wp-image-4265" decoding="async" height="50" src="/wp-content/uploads/2025/01/Mask-group-2.png" width="48"/ loading="lazy"></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">Representing India at the 2026 World Boccia General Assembly in Seoul (with BSFI Chairman Ashok Bedi), 9 PCI LOC Appointments, and the June 2026 Felicitation of CDS General N. S. Raja Subramani.</p></div></div> </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-a96aa25 e-con-full elementor-hidden-desktop e-flex e-con e-parent e-lazyloaded" data-e-type="container" data-element_type="container" data-id="a96aa25" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-d568653 elementor-absolute elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="d568653" data-settings='{"_position":"absolute"}' data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1399" decoding="async" fetchpriority="high" height="1947" sizes="(max-width: 1947px) 100vw, 1947px" src="/wp-content/uploads/2024/07/red-drop.png" srcset="/wp-content/uploads/2024/07/red-drop.png 1947w, /wp-content/uploads/2024/07/red-drop-300x300.png 300w, /wp-content/uploads/2024/07/red-drop-1024x1024.png 1024w, /wp-content/uploads/2024/07/red-drop-150x150.png 150w, /wp-content/uploads/2024/07/red-drop-768x768.png 768w, /wp-content/uploads/2024/07/red-drop-1536x1536.png 1536w" width="1947"/ loading="lazy"> </div>
-</div>
-<div class="elementor-element elementor-element-d2d8695 elementor-absolute elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="d2d8695" data-settings='{"_position":"absolute"}' data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1398" decoding="async" height="1491" sizes="(max-width: 1491px) 100vw, 1491px" src="/wp-content/uploads/2024/07/blue-drop.png" srcset="/wp-content/uploads/2024/07/blue-drop.png 1491w, /wp-content/uploads/2024/07/blue-drop-300x300.png 300w, /wp-content/uploads/2024/07/blue-drop-1024x1024.png 1024w, /wp-content/uploads/2024/07/blue-drop-150x150.png 150w, /wp-content/uploads/2024/07/blue-drop-768x768.png 768w" width="1491"/ loading="lazy"> </div>
-</div>
-<div class="elementor-element elementor-element-c57b998 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="c57b998">
-<div class="elementor-element elementor-element-0258402 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="0258402" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">BSFI &amp; Innovation</h2> </div>
-</div>
-<div class="elementor-element elementor-element-b0bb0c2 elementor-widget elementor-widget-razorpay_button" data-e-type="widget" data-element_type="widget" data-id="b0bb0c2" data-widget_type="razorpay_button.default">
-<div class="elementor-widget-container">
-<div class="jsd-bsfi-cta-wrap" style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:8px 0;">
-<a class="jsd-btn-primary" href="mailto:president@bocciaindia.com?subject=BSFI%20Partnership%20%26%20Indigenous%20BC3%20Ramp%20Initiative" style="display:inline-block;padding:12px 28px;background:#FFFFFF;color:#09090b;font-family:'Koulen',sans-serif;font-size:17px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border-radius:4px;border:1px solid #FFFFFF;">Partner With BSFI →</a>
-<a class="jsd-btn-secondary" href="/assets/documents/PCI_Official_Letter_Jaspreet_Singh.pdf" rel="noopener" style="display:inline-block;padding:12px 24px;background:rgba(255,255,255,0.06);color:#FFFFFF;font-family:'Koulen',sans-serif;font-size:17px;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border-radius:4px;border:1px solid rgba(255,255,255,0.28);backdrop-filter:blur(8px);" target="_blank">Official PCI Credential (PDF)</a>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-b798d0e e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="b798d0e">
-<div class="elementor-element elementor-element-be91801 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="be91801">
-<div class="elementor-element elementor-element-dab153a elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="dab153a" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Founded by Jaspreet Singh Dhaliwal in 2016 as the Para Boccia Sports Welfare Society and recognized globally as the Boccia Sports Federation of India (BSFI), our mission is to bring the Paralympic precision sport of Boccia to every individual in India living with quadriplegia, severe cerebral palsy, muscular dystrophy, and catastrophic spinal cord trauma. Starting from zero domestic awareness and zero equipment, BSFI has built an all-India federation across 20+ states, affiliated with World Boccia (BISFed), the Paralympic Committee of India (PCI), MYAS, SAI, and NADA.</p> </div>
-</div>
-<div class="elementor-element elementor-element-604c4f1 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="604c4f1">
-<div class="elementor-element elementor-element-811563c elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="811563c" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1365" decoding="async" height="464" sizes="(max-width: 413px) 100vw, 413px" src="/wp-content/uploads/2024/07/foundation-1.png" srcset="/wp-content/uploads/2024/07/foundation-1.png 413w, /wp-content/uploads/2024/07/foundation-1-267x300.png 267w" width="413"/ loading="lazy"> </div>
-</div>
-<div class="elementor-element elementor-element-ebda29f elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="ebda29f" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1366" decoding="async" height="292" sizes="(max-width: 527px) 100vw, 527px" src="/wp-content/uploads/2024/07/foundation-2.png" srcset="/wp-content/uploads/2024/07/foundation-2.png 527w, /wp-content/uploads/2024/07/foundation-2-300x166.png 300w" width="527"/ loading="lazy"> </div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-91ded39 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="91ded39">
-<div class="elementor-element elementor-element-f16d8b1 elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="f16d8b1" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>In Paralympic Boccia, BC3 athletes with severe locomotor dysfunction in all four limbs compete using an assistive ramp and a head or mouth pointer. Because imported ramps cost €2,500 to €5,000 (₹2.5–₹5 Lakh INR), BSFI President Jaspreet Singh Dhaliwal spearheaded a landmark tri-partite engineering collaboration with the Indian Council of Medical Research (ICMR) and IIT Madras. Together, they engineered India's first World Boccia-compliant, aeronautical-alloy Indigenous BC3 Assistive Ramp—formally handed over to Indian Army Boccia players at ICMR Headquarters in New Delhi in September 2026 alongside DG ICMR Dr. Rajiv Bahl.</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-5504e29 e-con-full elementor-hidden-tablet e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="5504e29">
-<div class="elementor-element elementor-element-fef38cb elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="fef38cb" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1368" decoding="async" height="558" sizes="(max-width: 453px) 100vw, 453px" src="/wp-content/uploads/2024/07/foundation-3.png" srcset="/wp-content/uploads/2024/07/foundation-3.png 453w, /wp-content/uploads/2024/07/foundation-3-244x300.png 244w" width="453"/ loading="lazy"> </div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-bfea127 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="bfea127">
-<div class="elementor-element elementor-element-83760df e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="83760df">
-<div class="elementor-element elementor-element-1dba778 elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="1dba778" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Beyond assistive technology, BSFI organizes annual Sub-Junior, Junior, and Senior National Boccia Championships, the Boccia India Federation Cup, high-performance residential coaching camps at IAMD Solan (Himachal Pradesh), permanent accessible courts such as the ALIMCO Centre Kanpur facility inaugurated for BC3 international medalist Sarita Dwivedi, and Spinal Cord Injury (SCI) Day hospital rehabilitation clinics—transforming severely impaired citizens into world-stage gold medalists in Bahrain, Cairo, Seoul, and Pilsen.</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-12f08ea e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="12f08ea">
-<div class="elementor-element elementor-element-ea5443c e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="ea5443c">
-<div class="elementor-element elementor-element-f2dfd41 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="f2dfd41" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1410" decoding="async" height="358" sizes="(max-width: 367px) 100vw, 367px" src="/wp-content/uploads/2024/07/foundation-4.jpg" srcset="/wp-content/uploads/2024/07/foundation-4.jpg 367w, /wp-content/uploads/2024/07/foundation-4-300x293.jpg 300w" width="367"/ loading="lazy"> </div>
-</div>
-<div class="elementor-element elementor-element-577cd09 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="577cd09" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1409" decoding="async" height="358" sizes="(max-width: 596px) 100vw, 596px" src="/wp-content/uploads/2024/07/foundation-5.jpg" srcset="/wp-content/uploads/2024/07/foundation-5.jpg 596w, /wp-content/uploads/2024/07/foundation-5-300x180.jpg 300w" width="596"/ loading="lazy"> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-d103633 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="d103633">
-<div class="elementor-element elementor-element-a15c8b0 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="a15c8b0" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1408" decoding="async" height="383" sizes="(max-width: 601px) 100vw, 601px" src="/wp-content/uploads/2024/07/foundation-6.jpg" srcset="/wp-content/uploads/2024/07/foundation-6.jpg 601w, /wp-content/uploads/2024/07/foundation-6-300x191.jpg 300w" width="601"/ loading="lazy"> </div>
-</div>
-<div class="elementor-element elementor-element-23a30ea elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="23a30ea" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img alt="Boccia Sports Federation of India (BSFI) Grassroots &amp; Assistive Tech Initiative" class="attachment-full size-full wp-image-1407" decoding="async" height="386" sizes="(max-width: 364px) 100vw, 364px" src="/wp-content/uploads/2024/07/foundation-7.jpg" srcset="/wp-content/uploads/2024/07/foundation-7.jpg 364w, /wp-content/uploads/2024/07/foundation-7-283x300.jpg 283w" width="364"/ loading="lazy"> </div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-23f387f e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="23f387f" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-5944bf5 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="5944bf5" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Vision 2026–28</h2> </div>
-</div>
-<div class="elementor-element elementor-element-fc9b1df elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="fc9b1df" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Under President Jaspreet Singh Dhaliwal, the Boccia Sports Federation of India (BSFI) is advancing six strategic pillars:</p><p>the Jaspreet Singh Dhaliwal Foundation aims to</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-8638f41 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="8638f41">
-<div class="elementor-element elementor-element-7fd8240 e-grid e-con-full e-con e-child" data-e-type="container" data-element_type="container" data-id="7fd8240">
-<div class="elementor-element elementor-element-76c1b1e e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="76c1b1e" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-2b97424 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="2b97424" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">01</h2> </div>
-</div>
-<div class="elementor-element elementor-element-4549ec3 elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="4549ec3" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Scale nationwide deployment of the ICMR–IIT Madras Indigenous BC3 Assistive Ramp &amp; custom ergonomic head/mouth pointers.</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-4af9844 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="4af9844">
-</div>
-<div class="elementor-element elementor-element-bbc4152 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="bbc4152">
-</div>
-<div class="elementor-element elementor-element-5d20097 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="5d20097" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-74805fd elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="74805fd" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">02</h2> </div>
-</div>
-<div class="elementor-element elementor-element-eacad78 elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="eacad78" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Expand recognized State Boccia Associations and medical classification hubs across all 28 States and 8 Union Territories.</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-f31b5ff e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="f31b5ff" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-eff15ea elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="eff15ea" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">03</h2> </div>
-</div>
-<div class="elementor-element elementor-element-c726cbb elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="c726cbb" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Conduct high-performance SAI residential coaching camps (IAMD Solan &amp; regional centers) for Asian Para Games Aichi-Nagoya.</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-c0d6f43 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="c0d6f43">
-</div>
-<div class="elementor-element elementor-element-27b1a67 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="27b1a67">
-</div>
-<div class="elementor-element elementor-element-a43ec77 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="a43ec77" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-ef5d157 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="ef5d157" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">04</h2> </div>
-</div>
-<div class="elementor-element elementor-element-302d90f elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="302d90f" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Accredit Indian referees, classifiers, and coaches through World Boccia (BISFed) international education seminars.</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-eba6c12 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="eba6c12" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-e79e916 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="e79e916" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">05</h2> </div>
-</div>
-<div class="elementor-element elementor-element-f923d1e elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="f923d1e" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Establish dedicated barrier-free Boccia courts at military spinal injury centers, rehabilitation hospitals, and ALIMCO hubs.</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-f34936d e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="f34936d">
-</div>
-<div class="elementor-element elementor-element-858dbcb e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="858dbcb">
-</div>
-<div class="elementor-element elementor-element-98435c5 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="98435c5" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-13e2f21 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="13e2f21" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">06</h2> </div>
-</div>
-<div class="elementor-element elementor-element-7cb367e elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="7cb367e" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Propel Team India's BC1–BC4 champions to podium triumphs at the 2026 Asian Para Games and Los Angeles 2028 Paralympics.</p> </div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-3d03b42 e-con-full elementor-hidden-desktop e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="3d03b42" data-settings='{"background_background":"classic"}'>
-<div class="elementor-element elementor-element-19fd7fb elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="19fd7fb" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Empower Para-Champions with Boccia India (BSFI)</h2> </div>
-</div>
-<div class="elementor-element elementor-element-dc43bcd elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="dc43bcd" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Institutional CSR partnerships, assistive equipment sponsorships, and rehabilitation hospital collaborations directly equip India's quadriplegic, cerebral palsy, and muscular dystrophy athletes with indigenous ICMR–IIT Madras BC3 ramps, leather Boccia ball sets, and international tournament exposure across the World Boccia circuit.</p> </div>
-</div>
-<div class="elementor-element elementor-element-deb9e0e e-n-tabs-mobile elementor-widget elementor-widget-n-tabs" data-e-type="widget" data-element_type="widget" data-id="deb9e0e" data-widget_type="nested-tabs.default">
-<div class="elementor-widget-container">
-<div aria-label="Tabs. Open items with Enter or Space, close with Escape and navigate using the Arrow keys." class="e-n-tabs" data-widget-number="233545230">
-<div class="e-n-tabs-heading" role="tablist">
-<button aria-controls="e-n-tab-content-2335452301" aria-selected="true" class="e-n-tab-title" data-tab-index="1" data-tab-title-id="e-n-tab-title-2335452301" id="e-n-tab-title-2335452301" role="tab" style="--n-tabs-title-order: 1;" tabindex="0">
-<span class="e-n-tab-title-text">Indigenous BC3 Ramp Innovation (ICMR &amp; IIT Madras)</span>
-</button>
-<button aria-controls="e-n-tab-content-2335452302" aria-selected="false" class="e-n-tab-title" data-tab-index="2" data-tab-title-id="e-n-tab-title-2335452302" id="e-n-tab-title-2335452302" role="tab" style="--n-tabs-title-order: 2;" tabindex="-1">
-<span class="e-n-tab-title-text">National Coaching Camps &amp; Rehab Court Infrastructure</span>
-</button>
-<button aria-controls="e-n-tab-content-2335452303" aria-selected="false" class="e-n-tab-title" data-tab-index="3" data-tab-title-id="e-n-tab-title-2335452303" id="e-n-tab-title-2335452303" role="tab" style="--n-tabs-title-order: 3;" tabindex="-1">
-<span class="e-n-tab-title-text">World Boccia Podiums &amp; Hall of Fame Champions</span>
-</button>
-<button aria-controls="e-n-tab-content-2335452304" aria-selected="false" class="e-n-tab-title" data-tab-index="4" data-tab-title-id="e-n-tab-title-2335452304" id="e-n-tab-title-2335452304" role="tab" style="--n-tabs-title-order: 4;" tabindex="-1">
-<span class="e-n-tab-title-text">Global Governance &amp; Armed Forces Synergy</span>
-</button>
-</div>
-<div class="e-n-tabs-content">
-<div aria-labelledby="e-n-tab-title-2335452301" class="e-active elementor-element elementor-element-794d24e e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="794d24e" data-tab-index="1" id="e-n-tab-content-2335452301" role="tabpanel" style="--n-tabs-title-order: 1;">
-<div class="elementor-element elementor-element-60183cc elementor-position-left elementor-vertical-align-top elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="60183cc" data-widget_type="image-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img alt="Boccia Sports Federation of India &amp; ICMR–IIT Madras BC3 Assistive Ramp Emblem" class="attachment-thumbnail size-thumbnail wp-image-4265" decoding="async" height="50" src="/wp-content/uploads/2025/01/Mask-group-2.png" width="48"/ loading="lazy"></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">Co-engineered by BSFI, ICMR &amp; IIT Madras: ultra-low-friction polymer chute, micro-adjustable elevation, and aeronautical alloy frame compliant with World Boccia Section 11.</p></div></div> </div>
-</div>
-<div class="elementor-element elementor-element-7a8d49b elementor-position-left elementor-vertical-align-top elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="7a8d49b" data-widget_type="image-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img alt="Boccia Sports Federation of India &amp; ICMR–IIT Madras BC3 Assistive Ramp Emblem" class="attachment-thumbnail size-thumbnail wp-image-4265" decoding="async" height="50" src="/wp-content/uploads/2025/01/Mask-group-2.png" width="48"/ loading="lazy"></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">Formally handed over to Indian Army Boccia players at ICMR HQ New Delhi (September 2026) with Secretary DHR &amp; DG ICMR Dr. Rajiv Bahl, Addl. DG Dr. Sanghmitra Pati &amp; Dr. Ravinder Singh.</p></div></div> </div>
-</div>
-</div>
-<div aria-labelledby="e-n-tab-title-2335452302" class="elementor-element elementor-element-5c19013 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="5c19013" data-tab-index="2" id="e-n-tab-content-2335452302" role="tabpanel" style="--n-tabs-title-order: 2;">
-<div class="elementor-element elementor-element-82b7e84 elementor-position-left elementor-vertical-align-top elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="82b7e84" data-widget_type="image-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img alt="Boccia Sports Federation of India &amp; ICMR–IIT Madras BC3 Assistive Ramp Emblem" class="attachment-thumbnail size-thumbnail wp-image-4265" decoding="async" height="50" src="/wp-content/uploads/2025/01/Mask-group-2.png" width="48"/ loading="lazy"></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">High-performance National Coaching Camps at IAMD Solan (Himachal Pradesh) backed by MYAS &amp; SAI, integrating sports science, nutrition, and BC3 ramp trajectory analytics.</p></div></div> </div>
-</div>
-<div class="elementor-element elementor-element-1305f37 elementor-position-left elementor-vertical-align-top elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="1305f37" data-widget_type="image-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img alt="Boccia Sports Federation of India &amp; ICMR–IIT Madras BC3 Assistive Ramp Emblem" class="attachment-thumbnail size-thumbnail wp-image-4265" decoding="async" height="50" src="/wp-content/uploads/2025/01/Mask-group-2.png" width="48"/ loading="lazy"></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">Dedicated Boccia training court inaugurated at ALIMCO Centre Kanpur in honor of BC3 star Sarita Dwivedi, alongside Spinal Cord Injury (SCI) Day awareness clinics.</p></div></div> </div>
-</div>
-</div>
-<div aria-labelledby="e-n-tab-title-2335452303" class="elementor-element elementor-element-047e4bd e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="047e4bd" data-tab-index="3" id="e-n-tab-content-2335452303" role="tabpanel" style="--n-tabs-title-order: 3;">
-<div class="elementor-element elementor-element-3094cc2 elementor-position-left elementor-vertical-align-top elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="3094cc2" data-widget_type="image-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img alt="Boccia Sports Federation of India &amp; ICMR–IIT Madras BC3 Assistive Ramp Emblem" class="attachment-thumbnail size-thumbnail wp-image-4265" decoding="async" height="50" src="/wp-content/uploads/2025/01/Mask-group-2.png" width="48"/ loading="lazy"></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">Pilsen 2026 World Boccia Challenger (Czech Republic): Historic 5-Gold Medal Sweep led by BC3 Golden Boy Ajeya Raj, Golden Girl Anjali Thakur, and BC1 Gold Medalist Sandhya Bhumij.</p></div></div> </div>
-</div>
-<div class="elementor-element elementor-element-a798a0c elementor-position-left elementor-vertical-align-top elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="a798a0c" data-widget_type="image-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img alt="Boccia Sports Federation of India &amp; ICMR–IIT Madras BC3 Assistive Ramp Emblem" class="attachment-thumbnail size-thumbnail wp-image-4265" decoding="async" height="50" src="/wp-content/uploads/2025/01/Mask-group-2.png" width="48"/ loading="lazy"></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">Manama 2024 Bahrain 6-Medal Sweep &amp; Cairo 2026 Unbeaten Opening Sweep: Sachin Chamaria (BC3 Gold), Pooja Gupta (1st Individual Int'l Medalist, BC4 Bronze &amp; Pairs Silver), and Jatin Kushwaha.</p></div></div> </div>
-</div>
-</div>
-<div aria-labelledby="e-n-tab-title-2335452304" class="elementor-element elementor-element-76fd56b e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="76fd56b" data-tab-index="4" id="e-n-tab-content-2335452304" role="tabpanel" style="--n-tabs-title-order: 4;">
-<div class="elementor-element elementor-element-b281522 elementor-position-left elementor-vertical-align-top elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="b281522" data-widget_type="image-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img alt="Boccia Sports Federation of India &amp; ICMR–IIT Madras BC3 Assistive Ramp Emblem" class="attachment-thumbnail size-thumbnail wp-image-4265" decoding="async" height="50" src="/wp-content/uploads/2025/01/Mask-group-2.png" width="48"/ loading="lazy"></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">Representing India at the 2026 World Boccia General Assembly in Seoul (with BSFI Chairman Ashok Bedi), 9 PCI LOC Appointments, and the June 2026 Felicitation of CDS General N. S. Raja Subramani.</p></div></div> </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-354fe47 elementor-widget elementor-widget-razorpay_button" data-e-type="widget" data-element_type="widget" data-id="354fe47" data-widget_type="razorpay_button.default">
-<div class="elementor-widget-container">
-<div class="jsd-bsfi-cta-wrap" style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:8px 0;">
-<a class="jsd-btn-primary" href="mailto:president@bocciaindia.com?subject=BSFI%20Partnership%20%26%20Indigenous%20BC3%20Ramp%20Initiative" style="display:inline-block;padding:12px 28px;background:#FFFFFF;color:#09090b;font-family:'Koulen',sans-serif;font-size:17px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border-radius:4px;border:1px solid #FFFFFF;">Partner With BSFI →</a>
-<a class="jsd-btn-secondary" href="/assets/documents/PCI_Official_Letter_Jaspreet_Singh.pdf" rel="noopener" style="display:inline-block;padding:12px 24px;background:rgba(255,255,255,0.06);color:#FFFFFF;font-family:'Koulen',sans-serif;font-size:17px;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border-radius:4px;border:1px solid rgba(255,255,255,0.28);backdrop-filter:blur(8px);" target="_blank">Official PCI Credential (PDF)</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><!-- .entry-content .clear -->
+
+<div class="jsd-foundation-suite">
+
+  <!-- Section 1: Hero & Strategic Mission -->
+  <header class="jsd-fdn-hero">
+    <div class="jsd-fdn-kicker">Foundation &amp; Assistive Innovation</div>
+    <h1 class="jsd-fdn-title">BSFI &amp; INNOVATION</h1>
+    <p class="jsd-fdn-subtitle">
+      Pioneering India's Paralympic Boccia movement, engineering the indigenous ICMR–IIT Madras BC3 Assistive Ramp, and elevating severely disabled athletes to the world stage.
+    </p>
+    <div class="jsd-fdn-actions">
+      <a class="jsd-btn-amber" href="mailto:president@bocciaindia.com?subject=BSFI%20Partnership%20%26%20Indigenous%20BC3%20Ramp%20Initiative">
+        Partner With BSFI &rarr;
+      </a>
+      <a class="jsd-btn-ghost" href="/assets/documents/PCI_Official_Letter_Jaspreet_Singh.pdf" target="_blank" rel="noopener">
+        Official PCI Credential (PDF)
+      </a>
+    </div>
+  </header>
+
+  <!-- Section 2: Genesis & Ramp Innovation -->
+  <section class="jsd-fdn-genesis">
+    <div class="jsd-card-pillar">
+      <div>
+        <div class="jsd-pillar-eyebrow">Established 2016 &bull; Grassroots Genesis</div>
+        <h2 class="jsd-pillar-heading">Bringing Paralympic Boccia to Every Indian State</h2>
+        <p class="jsd-pillar-body">
+          Founded by Jaspreet Singh Dhaliwal in 2016 as the Para Boccia Sports Welfare Society and recognized globally as the Boccia Sports Federation of India (BSFI), our mission is to bring the Paralympic precision sport of Boccia to every individual in India living with quadriplegia, severe cerebral palsy, muscular dystrophy, and catastrophic spinal cord trauma. Starting from zero domestic awareness and zero equipment, BSFI has built an all-India federation across 20+ states, affiliated with World Boccia (BISFed), the Paralympic Committee of India (PCI), MYAS, SAI, and NADA.
+        </p>
+      </div>
+      <div class="jsd-badge-row">
+        <span class="jsd-badge-chip highlight">20+ States Federated</span>
+        <span class="jsd-badge-chip">World Boccia Affiliated</span>
+        <span class="jsd-badge-chip">PCI &amp; MYAS Recognized</span>
+      </div>
+    </div>
+
+    <div class="jsd-card-pillar">
+      <div>
+        <div class="jsd-pillar-eyebrow">Landmark Assistive Innovation &bull; ICMR &amp; IIT Madras</div>
+        <h2 class="jsd-pillar-heading">Indigenous BC3 Assistive Ramp &amp; Pointers</h2>
+        <p class="jsd-pillar-body">
+          In Paralympic Boccia, BC3 athletes with severe locomotor dysfunction in all four limbs compete using an assistive ramp and a head or mouth pointer. Because imported ramps cost &euro;2,500 to &euro;5,000 (&#8377;2.5&#8211;&#8377;5 Lakh INR), BSFI President Jaspreet Singh Dhaliwal spearheaded a landmark tri-partite engineering collaboration with the Indian Council of Medical Research (ICMR) and IIT Madras. Together, they engineered India&#8217;s first World Boccia-compliant, aeronautical-alloy Indigenous BC3 Assistive Ramp&#8212;formally handed over to Indian Army Boccia players at ICMR Headquarters in New Delhi in September 2026 alongside DG ICMR Dr. Rajiv Bahl.
+        </p>
+      </div>
+      <div class="jsd-badge-row">
+        <span class="jsd-badge-chip highlight">&#8377;5 Lakh Cost Barrier Eliminated</span>
+        <span class="jsd-badge-chip">Aeronautical Alloy</span>
+        <span class="jsd-badge-chip">Handover at ICMR HQ New Delhi</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Photo Gallery Strip -->
+  <section class="jsd-gallery-strip">
+    <div class="jsd-gallery-card">
+      <img src="/wp-content/uploads/2024/07/foundation-1.png" alt="BSFI Grassroots Community &amp; Athletes" loading="lazy" width="600" height="400">
+      <div class="jsd-gallery-caption">
+        <strong>Grassroots Community:</strong> BSFI President Jaspreet Singh Dhaliwal mentoring athletes at the Boccia India Federation Cup.
+      </div>
+    </div>
+    <div class="jsd-gallery-card">
+      <img src="/wp-content/uploads/2024/07/foundation-2.png" alt="Historic ICMR HQ BC3 Ramp Handover to Indian Army" loading="lazy" width="600" height="400">
+      <div class="jsd-gallery-caption">
+        <strong>Historic Handover:</strong> Handing over indigenous BC3 ramps to Indian Army players at ICMR HQ New Delhi with DG Dr. Rajiv Bahl.
+      </div>
+    </div>
+    <div class="jsd-gallery-card">
+      <img src="/wp-content/uploads/2024/07/foundation-3.png" alt="International World Boccia Circuit" loading="lazy" width="600" height="400">
+      <div class="jsd-gallery-caption">
+        <strong>Global Arena:</strong> Team India BC3 champions representing the nation with pride on the World Boccia international circuit.
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Vision 2026–28 (6 Strategic Pillars) -->
+  <section class="jsd-fdn-vision">
+    <div class="jsd-vision-header">
+      <div class="jsd-fdn-kicker">Strategic Roadmap</div>
+      <h2>Vision 2026–28</h2>
+      <p>Under President Jaspreet Singh Dhaliwal, the Boccia Sports Federation of India (BSFI) is advancing six strategic pillars to institutionalize Paralympic excellence nationwide:</p>
+    </div>
+
+    <div class="jsd-pillars-grid">
+      <div class="jsd-pillar-box">
+        <div class="jsd-pillar-num">01</div>
+        <div class="jsd-pillar-title">Nationwide Ramp Deployment</div>
+        <p class="jsd-pillar-desc">Scale nationwide deployment of the ICMR–IIT Madras Indigenous BC3 Assistive Ramp &amp; custom ergonomic head/mouth pointers across all states.</p>
+      </div>
+
+      <div class="jsd-pillar-box">
+        <div class="jsd-pillar-num">02</div>
+        <div class="jsd-pillar-title">State Associations &amp; Medical Hubs</div>
+        <p class="jsd-pillar-desc">Expand recognized State Boccia Associations and specialized medical classification hubs across all 28 States and 8 Union Territories.</p>
+      </div>
+
+      <div class="jsd-pillar-box">
+        <div class="jsd-pillar-num">03</div>
+        <div class="jsd-pillar-title">High-Performance SAI Camps</div>
+        <p class="jsd-pillar-desc">Conduct high-performance SAI residential coaching camps (IAMD Solan &amp; regional centers) for the Asian Para Games Aichi-Nagoya.</p>
+      </div>
+
+      <div class="jsd-pillar-box">
+        <div class="jsd-pillar-num">04</div>
+        <div class="jsd-pillar-title">World Boccia Education &amp; Officials</div>
+        <p class="jsd-pillar-desc">Accredit Indian referees, classifiers, and coaches through World Boccia (BISFed) international education and certification seminars.</p>
+      </div>
+
+      <div class="jsd-pillar-box">
+        <div class="jsd-pillar-num">05</div>
+        <div class="jsd-pillar-title">Barrier-Free Court Infrastructure</div>
+        <p class="jsd-pillar-desc">Establish dedicated barrier-free Boccia courts at military spinal injury centers, rehabilitation hospitals, and ALIMCO hubs.</p>
+      </div>
+
+      <div class="jsd-pillar-box">
+        <div class="jsd-pillar-num">06</div>
+        <div class="jsd-pillar-title">Paralympic Podium Glory</div>
+        <p class="jsd-pillar-desc">Propel Team India's BC1–BC4 champions to podium triumphs at the 2026 Asian Para Games and Los Angeles 2028 Paralympics.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Interactive Foundation Tabs (4 Pillars) -->
+  <section class="jsd-fdn-tabs-section" id="jsd-foundation-tabs">
+    <div class="jsd-vision-header" style="margin-bottom:28px;">
+      <div class="jsd-fdn-kicker">Interactive Archive</div>
+      <h2>The Four Pillars of BSFI Excellence</h2>
+      <p>Explore the four cornerstones of India's Paralympic Boccia ecosystem.</p>
+    </div>
+
+    <div class="jsd-tabs-nav" role="tablist" aria-label="BSFI Four Pillars of Excellence">
+      <button class="jsd-tab-btn active" role="tab" aria-selected="true" aria-controls="pane-ramp" id="tab-btn-ramp" data-tab-target="pane-ramp">
+        <div class="jsd-tab-num">Pillar 01</div>
+        <div class="jsd-tab-label">Indigenous BC3 Ramp Innovation</div>
+      </button>
+      <button class="jsd-tab-btn" role="tab" aria-selected="false" aria-controls="pane-camps" id="tab-btn-camps" data-tab-target="pane-camps">
+        <div class="jsd-tab-num">Pillar 02</div>
+        <div class="jsd-tab-label">High-Performance Camps &amp; Courts</div>
+      </button>
+      <button class="jsd-tab-btn" role="tab" aria-selected="false" aria-controls="pane-podiums" id="tab-btn-podiums" data-tab-target="pane-podiums">
+        <div class="jsd-tab-num">Pillar 03</div>
+        <div class="jsd-tab-label">World Boccia Podiums &amp; Champions</div>
+      </button>
+      <button class="jsd-tab-btn" role="tab" aria-selected="false" aria-controls="pane-governance" id="tab-btn-governance" data-tab-target="pane-governance">
+        <div class="jsd-tab-num">Pillar 04</div>
+        <div class="jsd-tab-label">Global Governance &amp; Armed Forces</div>
+      </button>
+    </div>
+
+    <!-- Pane 1: Indigenous BC3 Ramp -->
+    <div class="jsd-tab-pane active" id="pane-ramp" role="tabpanel" aria-labelledby="tab-btn-ramp">
+      <div class="jsd-pane-content">
+        <h3>Indigenous BC3 Ramp Innovation (ICMR &amp; IIT Madras)</h3>
+        <ul class="jsd-points-list">
+          <li>
+            <strong>World Boccia Section 11 Specification:</strong> Co-engineered by BSFI, ICMR &amp; IIT Madras featuring an ultra-low-friction polymer chute, micro-adjustable elevation, and aeronautical alloy frame that meets stringent international competition standards.
+          </li>
+          <li>
+            <strong>Historic Armed Forces Handover:</strong> Formally handed over to Indian Army Boccia players at ICMR Headquarters in New Delhi (September 2026) with Secretary DHR &amp; DG ICMR Dr. Rajiv Bahl, Addl. DG Dr. Sanghmitra Pati &amp; Dr. Ravinder Singh.
+          </li>
+          <li>
+            <strong>Accessible Assistive Ecosystem:</strong> Engineered to replace costly &euro;5,000 imports with an affordable, indigenous Indian solution, empowering quadriplegic athletes nationwide.
+          </li>
+        </ul>
+        <div class="jsd-badge-row">
+          <span class="jsd-badge-chip highlight">ICMR Approved</span>
+          <span class="jsd-badge-chip">IIT Madras Co-Engineered</span>
+          <span class="jsd-badge-chip">Indian Army Adopted</span>
+        </div>
+      </div>
+      <div class="jsd-pane-media">
+        <div class="jsd-media-item">
+          <img src="/wp-content/uploads/2024/07/foundation-2.png" alt="ICMR Handover Ceremony" loading="lazy">
+          <div class="jsd-media-tag">ICMR HQ New Delhi Handover</div>
+        </div>
+        <div class="jsd-media-item">
+          <img src="/wp-content/uploads/2024/07/foundation-6.jpg" alt="BC3 Athlete in Action" loading="lazy">
+          <div class="jsd-media-tag">BC3 Chute Precision Play</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pane 2: High-Performance Camps & Courts -->
+    <div class="jsd-tab-pane" id="pane-camps" role="tabpanel" aria-labelledby="tab-btn-camps">
+      <div class="jsd-pane-content">
+        <h3>National Coaching Camps &amp; Rehab Court Infrastructure</h3>
+        <ul class="jsd-points-list">
+          <li>
+            <strong>IAMD Solan High-Performance Hub:</strong> Residential National Coaching Camps at IAMD Solan (Himachal Pradesh) backed by MYAS &amp; SAI, integrating sports biomechanics, specialized nutrition, and BC3 trajectory analytics.
+          </li>
+          <li>
+            <strong>ALIMCO Centre Kanpur Court:</strong> Dedicated barrier-free Boccia training court inaugurated at ALIMCO Centre Kanpur in honor of BC3 international medalist Sarita Dwivedi.
+          </li>
+          <li>
+            <strong>Clinical Outreach &amp; SCI Day:</strong> Regular Spinal Cord Injury (SCI) Day hospital clinics, connecting newly injured citizens and youth with competitive Paralympic opportunities.
+          </li>
+        </ul>
+        <div class="jsd-badge-row">
+          <span class="jsd-badge-chip highlight">IAMD Solan Camps</span>
+          <span class="jsd-badge-chip">ALIMCO Kanpur Court</span>
+          <span class="jsd-badge-chip">SCI Rehabilitation</span>
+        </div>
+      </div>
+      <div class="jsd-pane-media">
+        <div class="jsd-media-item">
+          <img src="/wp-content/uploads/2024/07/foundation-4.jpg" alt="National Coaching Camp" loading="lazy">
+          <div class="jsd-media-tag">IAMD Solan Residential Camp</div>
+        </div>
+        <div class="jsd-media-item">
+          <img src="/wp-content/uploads/2024/07/foundation-5.jpg" alt="Team India Athletes" loading="lazy">
+          <div class="jsd-media-tag">National Squad Preparation</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pane 3: World Boccia Podiums -->
+    <div class="jsd-tab-pane" id="pane-podiums" role="tabpanel" aria-labelledby="tab-btn-podiums">
+      <div class="jsd-pane-content">
+        <h3>World Boccia Podiums &amp; Hall of Fame Champions</h3>
+        <ul class="jsd-points-list">
+          <li>
+            <strong>Pilsen 2026 Historic 5-Gold Medal Sweep:</strong> Monumental clean sweep at the Pilsen World Boccia Challenger (Czech Republic) led by BC3 Golden Boy Ajeya Raj, Golden Girl Anjali Thakur, and BC1 Gold Medalist Sandhya Bhumij.
+          </li>
+          <li>
+            <strong>Bahrain 2024 6-Medal Haul:</strong> Historic medals in Manama led by Sachin Chamaria (BC3 Gold), Pooja Gupta (India's 1st Individual Int'l Medalist, BC4 Bronze &amp; Pairs Silver), and Jatin Kushwaha.
+          </li>
+          <li>
+            <strong>Cairo 2026 Unbeaten Opening Sweep:</strong> Dominant start in Egypt, validating India's emergence as an elite Asian and global Boccia superpower.
+          </li>
+        </ul>
+        <div class="jsd-badge-row">
+          <span class="jsd-badge-chip highlight">Pilsen 5 Gold Sweep</span>
+          <span class="jsd-badge-chip">Bahrain 6-Medal Haul</span>
+          <span class="jsd-badge-chip">Cairo Unbeaten Run</span>
+        </div>
+      </div>
+      <div class="jsd-pane-media">
+        <div class="jsd-media-item">
+          <img src="/wp-content/uploads/2024/07/foundation-3.png" alt="International Competition" loading="lazy">
+          <div class="jsd-media-tag">World Boccia Circuit</div>
+        </div>
+        <div class="jsd-media-item">
+          <img src="/wp-content/uploads/2024/07/foundation-7.jpg" alt="Podium Celebration" loading="lazy">
+          <div class="jsd-media-tag">International Gold Medalist</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pane 4: Global Governance & Armed Forces -->
+    <div class="jsd-tab-pane" id="pane-governance" role="tabpanel" aria-labelledby="tab-btn-governance">
+      <div class="jsd-pane-content">
+        <h3>Global Governance &amp; Armed Forces Synergy</h3>
+        <ul class="jsd-points-list">
+          <li>
+            <strong>World Boccia General Assembly (Seoul):</strong> Representing India at the 2026 World Boccia General Assembly in Seoul alongside BSFI Chairman Ashok Bedi, positioning Indian Boccia at the center of international decision-making.
+          </li>
+          <li>
+            <strong>9 PCI LOC Appointments:</strong> Recognized leadership across 9 major National Games and Paralympic events under the Paralympic Committee of India.
+          </li>
+          <li>
+            <strong>Armed Forces Synergy &amp; Felicitation:</strong> High-level partnerships with the Indian Armed Forces and formal felicitation of Chief of Defence Staff (CDS) General Anil Chauhan and General N. S. Raja Subramani, actively integrating wounded war veterans into Boccia.
+          </li>
+        </ul>
+        <div class="jsd-badge-row">
+          <span class="jsd-badge-chip highlight">Seoul General Assembly</span>
+          <span class="jsd-badge-chip">9 PCI Appointments</span>
+          <span class="jsd-badge-chip">CDS Felicitation</span>
+        </div>
+      </div>
+      <div class="jsd-pane-media">
+        <div class="jsd-media-item">
+          <img src="/wp-content/uploads/2024/07/foundation-1.png" alt="BSFI Leadership" loading="lazy">
+          <div class="jsd-media-tag">BSFI Leadership &amp; Community</div>
+        </div>
+        <div class="jsd-media-item">
+          <img src="/wp-content/uploads/2024/07/foundation-2.png" alt="Indian Army Handover" loading="lazy">
+          <div class="jsd-media-tag">Armed Forces Integration</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: CSR & Institutional Sponsorship Banner -->
+  <section class="jsd-fdn-csr">
+    <h2 class="jsd-csr-title">Empower Para-Champions with Boccia India (BSFI)</h2>
+    <p class="jsd-csr-text">
+      Institutional CSR partnerships, assistive equipment sponsorships, and rehabilitation hospital collaborations directly equip India's quadriplegic, cerebral palsy, and muscular dystrophy athletes with indigenous ICMR–IIT Madras BC3 ramps, competition leather Boccia balls, and international tournament exposure across the World Boccia circuit.
+    </p>
+    <div class="jsd-fdn-actions">
+      <a class="jsd-btn-amber" href="mailto:president@bocciaindia.com?subject=BSFI%20Partnership%20%26%20Indigenous%20BC3%20Ramp%20Initiative">
+        Partner With BSFI &rarr;
+      </a>
+      <a class="jsd-btn-ghost" href="/assets/documents/PCI_Official_Letter_Jaspreet_Singh.pdf" target="_blank" rel="noopener">
+        Official PCI Credential (PDF)
+      </a>
+    </div>
+  </section>
+
+</div>
+
+<script id="jsd-foundation-tab-switcher">
+(function() {
+  function initJsdTabs() {
+    var tabs = document.querySelectorAll('.jsd-tab-btn');
+    var panes = document.querySelectorAll('.jsd-tab-pane');
+    if (!tabs.length || !panes.length) return;
+
+    tabs.forEach(function(tab) {
+      tab.addEventListener('click', function(e) {
+        e.preventDefault();
+        var targetId = this.getAttribute('data-tab-target');
+        
+        tabs.forEach(function(t) {
+          t.classList.remove('active');
+          t.setAttribute('aria-selected', 'false');
+        });
+        panes.forEach(function(p) {
+          p.classList.remove('active');
+        });
+
+        this.classList.add('active');
+        this.setAttribute('aria-selected', 'true');
+        var targetPane = document.getElementById(targetId);
+        if (targetPane) {
+          targetPane.classList.add('active');
+        }
+      });
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initJsdTabs);
+  } else {
+    initJsdTabs();
+  }
+})();
+</script>
+
+</div></div><!-- .entry-content .clear -->
 </article><!-- #post-## -->
 </main><!-- #main -->
 </div><!-- #primary -->
