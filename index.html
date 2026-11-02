@@ -1503,11 +1503,45 @@ jQuery(document).ready(function () {
     letter-spacing: 0.06em !important;
     text-shadow: 0 12px 28px rgba(0, 0, 0, 0.95), 0 0 20px rgba(252, 255, 128, 0.35) !important;
   }
-  .elementor-17 #card-menu .menu-card .menu-element {
+  /* 1. Prevent sticky spacer clone from ever rendering ghost duplicate cutouts */
+  .elementor-sticky__spacer,
+  .elementor-sticky__spacer *,
+  #card-menu.elementor-sticky__spacer,
+  #card-menu.elementor-sticky__spacer * {
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+  .elementor-17 #card-menu.elementor-sticky__spacer .menu-card .menu-element img,
+  .elementor-17 .elementor-sticky__spacer .menu-element img,
+  .elementor-sticky__spacer img {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+  }
+
+  /* 2. Strict responsive device separation between Desktop (#desktop_menu) and Mobile (.elementor-element-2dab079) */
+  @media (min-width: 1025px) {
+    .elementor-element-9d5a358,
+    .elementor-hidden-desktop {
+      display: none !important;
+      visibility: hidden !important;
+    }
+  }
+  @media (max-width: 1024px) {
+    .elementor-element-5ab0f62,
+    .elementor-hidden-tablet.elementor-hidden-mobile {
+      display: none !important;
+      visibility: hidden !important;
+    }
+  }
+
+  /* 3. Style active card menu ONLY on the live non-spacer container */
+  .elementor-17 #card-menu:not(.elementor-sticky__spacer) .menu-card .menu-element {
     position: static !important;
     overflow: visible !important;
   }
-  .elementor-17 #card-menu .menu-card .menu-element img {
+  .elementor-17 #card-menu:not(.elementor-sticky__spacer) .menu-card .menu-element img {
     opacity: 1 !important;
     visibility: visible !important;
     display: block !important;
@@ -1526,9 +1560,9 @@ jQuery(document).ready(function () {
     pointer-events: none !important;
     filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.92)) contrast(1.03) !important;
   }
-  .elementor-17 #card-menu .swiper-slide-active .menu-card .menu-element img,
-  .elementor-17 #card-menu .swiper-slide.swiper-slide-next + .swiper-slide .menu-card .menu-element img,
-  .elementor-17 #card-menu a.menu-card:hover .menu-element img {
+  .elementor-17 #card-menu:not(.elementor-sticky__spacer) .swiper-slide-active .menu-card .menu-element img,
+  .elementor-17 #card-menu:not(.elementor-sticky__spacer) .swiper-slide.swiper-slide-next + .swiper-slide .menu-card .menu-element img,
+  .elementor-17 #card-menu:not(.elementor-sticky__spacer) a.menu-card:hover .menu-element img {
     opacity: 1 !important;
     transform: translate(0, -6px) scale(1.06) skew(-12deg) !important;
     filter: drop-shadow(0 28px 42px rgba(0, 0, 0, 0.98)) contrast(1.06) !important;
