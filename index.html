@@ -981,6 +981,7 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/neerajchopra.co.in\/wp-ad
 </script>
 <script id="elementor-pro-frontend-js" src="/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.31.3"></script>
 <script id="pro-elements-handlers-js" src="/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.31.3"></script>
+<script id="nested-carousel-bundle-js" src="/wp-content/plugins/elementor-pro/assets/js/nested-carousel.776ab95ca4daa003622e.bundle.min.js?ver=3.31.3"></script>
 <!--   Unlimited Elements 1.5.148 Scripts -->
 <script id="unlimited-elements-scripts" type="text/javascript">
 
@@ -1452,16 +1453,26 @@ jQuery(document).ready(function () {
     overflow: hidden !important;
     transform: skew(-12deg) !important;
     border-radius: 6px !important;
-    border: 1px solid rgba(255, 255, 255, 0.12) !important;
-    background: rgba(12, 14, 18, 0.62) !important;
+    border: 1px solid rgba(255, 255, 255, 0.14) !important;
+    background: rgba(12, 14, 18, 0.65) !important;
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.82) !important;
     transition: border-color 0.35s ease, box-shadow 0.35s ease !important;
   }
+    #card-menu .swiper:not(.swiper-initialized) .swiper-wrapper {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+  }
+  #card-menu .swiper:not(.swiper-initialized) .swiper-slide {
+    width: 274px !important;
+    max-width: 274px !important;
+    flex-shrink: 0 !important;
+  }
+  .elementor-17 #card-menu .swiper-slide-active .menu-card .menu-bg,
   .elementor-17 #card-menu .swiper-slide.swiper-slide-next + .swiper-slide .menu-card .menu-bg,
-  .elementor-17 #card-menu .elementor-element-2dab079 .swiper-slide.swiper-slide-next .menu-card .menu-bg,
   .elementor-17 #card-menu a.menu-card:hover .menu-bg {
-    border-color: rgba(255, 255, 255, 0.28) !important;
-    box-shadow: 0 24px 52px rgba(0, 0, 0, 0.92) !important;
+    border-color: rgba(255, 255, 255, 0.35) !important;
+    box-shadow: 0 24px 52px rgba(0, 0, 0, 0.95) !important;
   }
   .elementor-17 #card-menu .menu-card .menu-bg img {
     width: 100% !important;
@@ -1469,34 +1480,37 @@ jQuery(document).ready(function () {
     object-fit: cover !important;
     object-position: center top !important;
     transform: scale(1.0) !important;
+    opacity: 0.65 !important;
     transition: all 0.4s ease !important;
   }
+  .elementor-17 #card-menu .swiper-slide-active .menu-card .menu-bg img,
   .elementor-17 #card-menu .swiper-slide.swiper-slide-next + .swiper-slide .menu-card .menu-bg img,
-  .elementor-17 #card-menu .elementor-element-2dab079 .swiper-slide.swiper-slide-next .menu-card .menu-bg img,
   .elementor-17 #card-menu a.menu-card:hover .menu-bg img {
-    transform: scale(1.15) !important;
-    opacity: 0.18 !important;
-    filter: blur(10px) brightness(0.4) !important;
+    transform: scale(1.08) !important;
+    opacity: 0.35 !important;
+    filter: blur(4px) brightness(0.6) !important;
   }
   .elementor-17 #card-menu .menu-card .menu-head .elementor-heading-title {
-    color: rgba(248, 250, 252, 0.68) !important;
+    color: rgba(248, 250, 252, 0.85) !important;
     letter-spacing: 0.04em !important;
     text-shadow: 0 6px 18px rgba(0, 0, 0, 0.85) !important;
     transition: color 0.35s ease, font-size 0.35s ease, letter-spacing 0.35s ease !important;
   }
+  .elementor-17 #card-menu .swiper-slide-active .menu-card .menu-head .elementor-heading-title,
   .elementor-17 #card-menu .swiper-slide.swiper-slide-next + .swiper-slide .menu-card .menu-head .elementor-heading-title,
-  .elementor-17 #card-menu .elementor-element-2dab079 .swiper-slide.swiper-slide-next .menu-card .menu-head .elementor-heading-title,
   .elementor-17 #card-menu a.menu-card:hover .menu-head .elementor-heading-title {
-    color: #FFFFFF !important;
+    color: #FCFF80 !important;
     letter-spacing: 0.06em !important;
-    text-shadow: 0 12px 28px rgba(0, 0, 0, 0.95) !important;
+    text-shadow: 0 12px 28px rgba(0, 0, 0, 0.95), 0 0 20px rgba(252, 255, 128, 0.35) !important;
   }
   .elementor-17 #card-menu .menu-card .menu-element {
     position: static !important;
     overflow: visible !important;
   }
   .elementor-17 #card-menu .menu-card .menu-element img {
-    opacity: 0 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
     position: absolute !important;
     top: -62px !important;
     bottom: auto !important;
@@ -1506,17 +1520,18 @@ jQuery(document).ready(function () {
     height: 412px !important;
     object-fit: contain !important;
     object-position: bottom center !important;
-    transform: translate(0, 14px) skew(-12deg) scale(0.95) !important;
+    transform: translate(0, 0) skew(-12deg) scale(1.0) !important;
     transition: all 0.42s cubic-bezier(0.22, 1, 0.36, 1) !important;
     z-index: 15 !important;
     pointer-events: none !important;
-    filter: drop-shadow(0 24px 36px rgba(0, 0, 0, 0.92)) contrast(1.03) !important;
+    filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.92)) contrast(1.03) !important;
   }
+  .elementor-17 #card-menu .swiper-slide-active .menu-card .menu-element img,
   .elementor-17 #card-menu .swiper-slide.swiper-slide-next + .swiper-slide .menu-card .menu-element img,
-  .elementor-17 #card-menu .elementor-element-2dab079 .swiper-slide.swiper-slide-next .menu-card .menu-element img,
   .elementor-17 #card-menu a.menu-card:hover .menu-element img {
     opacity: 1 !important;
-    transform: translate(0, 0) scale(1.06) skew(-12deg) !important;
+    transform: translate(0, -6px) scale(1.06) skew(-12deg) !important;
+    filter: drop-shadow(0 28px 42px rgba(0, 0, 0, 0.98)) contrast(1.06) !important;
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -1645,6 +1660,43 @@ jQuery(document).ready(function () {
       }
 
       wakeParallax();
+
+      function ensureCardMenuSwiper() {
+        if (typeof Swiper === "undefined") return;
+        var desktopSwiper = document.querySelector("#desktop_menu .swiper");
+        if (desktopSwiper && !desktopSwiper.classList.contains("swiper-initialized")) {
+          try {
+            new Swiper(desktopSwiper, {
+              slidesPerView: 5,
+              spaceBetween: 10,
+              loop: true,
+              autoplay: { delay: 5000, disableOnInteraction: false, pauseOnMouseEnter: true },
+              navigation: {
+                nextEl: desktopSwiper.parentElement.querySelector(".elementor-swiper-button-next"),
+                prevEl: desktopSwiper.parentElement.querySelector(".elementor-swiper-button-prev")
+              }
+            });
+          } catch(e) {}
+        }
+        var mobileSwiper = document.querySelector(".elementor-element-2dab079 .swiper");
+        if (mobileSwiper && !mobileSwiper.classList.contains("swiper-initialized")) {
+          try {
+            new Swiper(mobileSwiper, {
+              slidesPerView: 3,
+              spaceBetween: 10,
+              loop: true,
+              autoplay: { delay: 5000, disableOnInteraction: false, pauseOnMouseEnter: true },
+              navigation: {
+                nextEl: mobileSwiper.parentElement.querySelector(".elementor-swiper-button-next"),
+                prevEl: mobileSwiper.parentElement.querySelector(".elementor-swiper-button-prev")
+              }
+            });
+          } catch(e) {}
+        }
+      }
+      ensureCardMenuSwiper();
+      setTimeout(ensureCardMenuSwiper, 400);
+      setTimeout(ensureCardMenuSwiper, 1200);
     }
 
     if (document.readyState === "loading") {
