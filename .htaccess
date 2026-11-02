@@ -49,11 +49,6 @@ DirectorySlash On
     RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK|DELETE|PUT|OPTIONS) [NC]
     RewriteRule ^(.*)$ - [F,L]
 
-        # Transparent WebP image delivery for browsers supporting image/webp
-    RewriteCond %{HTTP_ACCEPT} image/webp
-    RewriteCond %{DOCUMENT_ROOT}/$1.webp -f
-    RewriteRule ^(wp-content/uploads/.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1,L]
-
     # Fallback to index.html if requested static file/directory doesn't exist
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d

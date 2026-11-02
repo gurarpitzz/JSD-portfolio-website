@@ -1,12 +1,8 @@
-# robots.txt for Jaspreet Singh Dhaliwal - President, Boccia Sports Federation of India (BSFI)
+# START YOAST BLOCK
+# ---------------------------
 User-agent: *
-Allow: /
-Disallow: /wp-admin/
-Disallow: /wp-includes/
-Disallow: /readme.html
+Disallow:
 
-# XML Sitemaps
-Sitemap: https://bocciaindia.com/sitemap_index.xml
-Sitemap: https://bocciaindia.com/page-sitemap.xml
-Sitemap: https://bocciaindia.com/news-sitemap.xml
-Sitemap: https://bocciaindia.com/event-sitemap.xml
+Sitemap: https://neerajchopra.co.in/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK

@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>https://bocciaindia.com/post-sitemap.xml</loc>
+		<loc>https://neerajchopra.co.in/post-sitemap.xml</loc>
 		<lastmod>2026-11-01T16:45:00+05:30</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://bocciaindia.com/page-sitemap.xml</loc>
+		<loc>https://neerajchopra.co.in/page-sitemap.xml</loc>
 		<lastmod>2026-11-01T16:45:00+05:30</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://bocciaindia.com/event-sitemap.xml</loc>
+		<loc>https://neerajchopra.co.in/event-sitemap.xml</loc>
 		<lastmod>2026-11-01T16:45:00+05:30</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://bocciaindia.com/news-sitemap.xml</loc>
+		<loc>https://neerajchopra.co.in/news-sitemap.xml</loc>
 		<lastmod>2026-11-01T16:45:00+05:30</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://bocciaindia.com/category-sitemap.xml</loc>
+		<loc>https://neerajchopra.co.in/category-sitemap.xml</loc>
 		<lastmod>2026-11-01T16:45:00+05:30</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://bocciaindia.com/event-category-sitemap.xml</loc>
+		<loc>https://neerajchopra.co.in/event-category-sitemap.xml</loc>
 		<lastmod>2026-11-01T16:45:00+05:30</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://bocciaindia.com/author-sitemap.xml</loc>
+		<loc>https://neerajchopra.co.in/author-sitemap.xml</loc>
 		<lastmod>2026-11-01T16:45:00+05:30</lastmod>
 	</sitemap>
 </sitemapindex>
